@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+
+:root{
+  --heading: "Bebas Neue", sans-serif ;
+  --text:;
+  --accent: "UnifrakturMaguntia", cursive;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: rgb(233, 232, 225);
+}
+
+h1,h2,h3,h4{
+  font-family: var(--heading);
+}
+
+.accent{
+  font-family: var(--accent);
+  color: hotpink;
+}
