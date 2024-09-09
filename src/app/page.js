@@ -8,13 +8,13 @@ export default function Home() {
         <nav>
           <ul>
             <li>
-              <a href="">about</a>
+              <a href="about">about</a>
             </li>
             <li>
-              <a href="">projects</a>
+              <a href="projects">projects</a>
             </li>
             <li>
-              <a href="">contact</a>
+              <a href="contact">contact</a>
             </li>
           </ul>
         </nav>
