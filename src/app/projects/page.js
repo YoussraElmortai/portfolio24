@@ -1,7 +1,11 @@
+import Header from "../components/header";
+
 export default function Projects() {
     return (
       <>
-      <h1>eeew</h1>
+      <Header/>
+      
+      <h1>projects</h1>
 
       <h2>ew</h2>
       </>
