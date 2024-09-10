@@ -15,22 +15,29 @@ export default function Home() {
         let offsetY = 0;
         let isDragging = false;
 
-        const onMouseDown = (e) => {
+        // Start Dragging (Mouse and Touch)
+        const onDragStart = (e) => {
           isDragging = true;
-          offsetX = e.clientX - pill.offsetLeft;
-          offsetY = e.clientY - pill.offsetTop;
+          const clientX = e.type === 'touchstart' ? e.touches[0].clientX : e.clientX;
+          const clientY = e.type === 'touchstart' ? e.touches[0].clientY : e.clientY;
+          offsetX = clientX - pill.offsetLeft;
+          offsetY = clientY - pill.offsetTop;
           pill.style.cursor = 'grabbing';
           document.body.style.userSelect = 'none';
         };
 
-        const onMouseMove = (e) => {
+        // Dragging (Mouse and Touch)
+        const onDragMove = (e) => {
           if (isDragging) {
-            pill.style.left = `${e.clientX - offsetX}px`;
-            pill.style.top = `${e.clientY - offsetY}px`;
+            const clientX = e.type === 'touchmove' ? e.touches[0].clientX : e.clientX;
+            const clientY = e.type === 'touchmove' ? e.touches[0].clientY : e.clientY;
+            pill.style.left = `${clientX - offsetX}px`;
+            pill.style.top = `${clientY - offsetY}px`;
           }
         };
 
-        const onMouseUp = () => {
+        // Stop Dragging (Mouse and Touch)
+        const onDragEnd = () => {
           if (isDragging) {
             isDragging = false;
             pill.style.cursor = 'grab';
@@ -38,47 +45,44 @@ export default function Home() {
           }
         };
 
-        pill.addEventListener('mousedown', onMouseDown);
-        document.addEventListener('mousemove', onMouseMove);
-        document.addEventListener('mouseup', onMouseUp);
+        // Event Listeners for Mouse Events
+        pill.addEventListener('mousedown', onDragStart);
+        document.addEventListener('mousemove', onDragMove);
+        document.addEventListener('mouseup', onDragEnd);
+
+        // Event Listeners for Touch Events
+        pill.addEventListener('touchstart', onDragStart);
+        document.addEventListener('touchmove', onDragMove);
+        document.addEventListener('touchend', onDragEnd);
 
         // Cleanup event listeners on component unmount
         return () => {
-          pill.removeEventListener('mousedown', onMouseDown);
-          document.removeEventListener('mousemove', onMouseMove);
-          document.removeEventListener('mouseup', onMouseUp);
+          pill.removeEventListener('mousedown', onDragStart);
+          document.removeEventListener('mousemove', onDragMove);
+          document.removeEventListener('mouseup', onDragEnd);
+          pill.removeEventListener('touchstart', onDragStart);
+          document.removeEventListener('touchmove', onDragMove);
+          document.removeEventListener('touchend', onDragEnd);
         };
       }
     });
   }, []);
 
-  const pillPositions = [
-    { top: 30, left: 50 },
-    { top: 36, left: 10 },
-    { top: 40, left: 80 },
-    { top: 60, left: 25 },
-  ];
 
   return (
     <>
       <Header />
 
       <main className="home">
-          {['HTML', 'JAVASCRIPT', 'CSS', 'DESIGN'].map((pill, index) => (
-            <div
-              className="pill"
-              key={pill}
-              ref={(el) => (pillRefs.current[index] = el)}
-              style={{
-                position: 'absolute',
-                cursor: 'grab',
-                top: `${pillPositions[index].top}%`,
-                left: `${pillPositions[index].left}%`,
-              }}
-            >
-              <span>{pill}</span>
-            </div>
-          ))}
+        {['HTML', 'JAVASCRIPT', 'CSS', 'DESIGN'].map((pill, index) => (
+          <div
+            className="pill"
+            key={pill}
+            ref={(el) => (pillRefs.current[index] = el)}
+          >
+            <span>{pill}</span>
+          </div>
+        ))}
 
         <h1>youssra Elmortai</h1>
         <p>Frontend developer and <span className="accent">Designer</span></p>
