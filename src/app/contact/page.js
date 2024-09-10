@@ -6,9 +6,10 @@ export default function Contact() {
     <>
       <Header />
 
+      <main>
+      <img src="cattyping.webp" alt="gif of cat typing on a laptop" />
       <h1>Contact</h1>
-
-      <img src="cattyping.webp" alt="" />
+      </main>
 
       <Footer />
     </>

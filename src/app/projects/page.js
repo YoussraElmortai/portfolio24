@@ -1,13 +1,16 @@
 import Header from "../components/header";
+import Footer from "../components/footer";
 
 export default function Projects() {
     return (
       <>
       <Header/>
-      
-      <h1>projects</h1>
 
-      <h2>ew</h2>
+      <main>
+        <h1>Projects</h1>
+      </main>
+
+      <Footer/>
       </>
   
     );

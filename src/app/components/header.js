@@ -1,25 +1,24 @@
 
 export default function Header() {
-    return (
-      <>
-        <header>
-        <div className="circle"/>
-          <nav>
-            <ul>
-              <li>
-                <a href="about">about</a>
-              </li>
-              <li>
-                <a href="projects">projects</a>
-              </li>
-              <li>
-                <a href="contact">contact</a>
-              </li>
-            </ul>
-          </nav>
-        </header>
-      </>
-  
-    );
-  }
+  return (
+    <>
+      <header>
+        <nav>
+          <ul>
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="projects">Projects</a>
+            </li>
+            <li>
+              <a href="contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </>
+  );
+}
+
   
