@@ -74,11 +74,11 @@ export default function Home() {
       <Header />
 
       <main className="home">
-        {['HTML', 'JAVASCRIPT', 'CSS', 'DESIGN'].map((pill, index) => (
+        {['HTML', 'JAVASCRIPT', 'CSS', 'DESIGN'].map((pill, i) => (
           <div
             className="pill"
             key={pill}
-            ref={(el) => (pillRefs.current[index] = el)}
+            ref={(el) => (pillRefs.current[i] = el)}
           >
             <span>{pill}</span>
           </div>

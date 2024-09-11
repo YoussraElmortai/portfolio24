@@ -107,6 +107,7 @@ nav {
   -webkit-box-shadow: 2px 8px 20px 0px rgba(0, 0, 0, 0.21);
   -moz-box-shadow: 2px 8px 20px 0px rgba(0, 0, 0, 0.21);
   box-shadow: 2px 8px 20px 0px rgba(0, 0, 0, 0.21);
+  animation: hovering 2.5s ease-in-out infinite;
 }
 
 .pill:nth-of-type(2){
@@ -122,6 +123,18 @@ nav {
 .pill:nth-of-type(4){
   top: 60%;
   left: 35%;
+}
+
+@keyframes hovering {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5%);
+  }
+  100% {
+    transform: translateY(5%);
+  }
 }
 
 main {
