@@ -74,7 +74,7 @@ export default function Home() {
       <Header />
 
       <main className="home">
-        {['HTML', 'JAVASCRIPT', 'CSS', 'DESIGN'].map((pill, i) => (
+        {['Interactive','Responsive', 'Playfull', 'Social'].map((pill, i) => (
           <div
             className="pill"
             key={pill}
@@ -83,6 +83,8 @@ export default function Home() {
             <span>{pill}</span>
           </div>
         ))}
+
+        <img src="https://i.pinimg.com/564x/f2/05/3c/f2053cabd3efcfd237f50f1bf4afa44f.jpg"  alt=""/>
 
         <h1>youssra Elmortai</h1>
         <p>Frontend developer and <span className="accent">Designer</span></p>

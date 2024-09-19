@@ -8,7 +8,7 @@
   --green-transparent: rgba(172, 255, 47, 0.588);
   --hotpink: hotpink;
   --accent: "UnifrakturMaguntia", cursive;
-  --bg-color: rgb(233, 232, 225);
+  --bg-color: rgb(241, 241, 241);
 }
 
 * {
@@ -56,13 +56,13 @@ nav {
 
     & li:last-of-type {
       & a {
-        background-color: var(--text-color);
-        color: var(--bg-color);
+        background-color: var(--hotpink);
+        color: var(--text-color);
       }
 
       & a:hover {
-        background-color: var(--hotpink);
-        color: var(--text-color);
+        background-color: var(--text-color);
+        color: var(--bg-color);
       }
     }
 
@@ -88,51 +88,74 @@ nav {
   height: 76vh;
 
   & h1 {
+    z-index: 2;
     font-size: 2.7rem;
     background-color: var(--green);
     padding-left: 0.5rem;
     padding-right: 0.5rem;
   }
+
+  & img{
+    position: absolute;
+    height: 65vh;
+    width: auto;
+    filter: grayscale(1);
+    border-radius: 2rem;
+    object-fit: cover;
+  }
+
+  & p{
+    z-index: 2;
+  }
 }
 
 .pill {
+  font-weight: 600;
+  z-index: 3;
   background-color: var(--hotpink);
-  border: solid 1px var(--text-color);
+  border: solid 2px var(--text-color);
   border-radius: 5rem;
-  padding: 0.5rem;
+  padding: 0.3rem;
   position: absolute;
   cursor: grab;
   left: 45%;
-  top: 25%;
+  top: 22%;
   -webkit-box-shadow: 2px 8px 20px 0px rgba(0, 0, 0, 0.21);
   -moz-box-shadow: 2px 8px 20px 0px rgba(0, 0, 0, 0.21);
   box-shadow: 2px 8px 20px 0px rgba(0, 0, 0, 0.21);
-  animation: hovering 1.5s ease-in-out infinite;
+  animation: hovering 2s ease-in-out infinite;
   animation-direction: alternate-reverse;
+
+  &:nth-of-type(2) {
+    background-color: rgb(220, 140, 238);
+    top: 34%;
+    left: 5%;
+  }
+
+  &:nth-of-type(3) {
+    background-color: rgb(140, 238, 199);
+    top: 37%;
+    left: 70%;
+  }
+
+  &:nth-of-type(4) {
+    background-color: rgb(163, 238, 140);
+    top: 62%;
+    left: 35%;
+  }
+
 }
 
-.pill:nth-of-type(2){
-  top: 32%;
-  left: 5%;
-}
-
-.pill:nth-of-type(3){
-  top: 35%;
-  left: 70%;
-}
-
-.pill:nth-of-type(4){
-  top: 60%;
-  left: 35%;
-}
 
 @keyframes hovering {
   0% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(-5%);
   }
+
   100% {
     transform: translateY(5%);
   }
@@ -142,6 +165,7 @@ main {
   position: relative;
   display: flex;
   flex-direction: column;
+  height: 76vh;
 
 
   & p {

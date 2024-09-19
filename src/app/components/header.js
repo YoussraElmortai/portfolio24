@@ -12,7 +12,7 @@ export default function Header() {
               <a href="projects">Projects</a>
             </li>
             <li>
-              <a href="contact">Contact</a>
+            <a href="mailto:email@example.com">Email</a>
             </li>
           </ul>
         </nav>
