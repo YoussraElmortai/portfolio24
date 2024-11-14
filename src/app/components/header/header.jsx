@@ -5,14 +5,11 @@ export default function Header() {
       <header>
         <nav>
           <ul>
-            <li>
-              <a href="/">Home</a>
+            <li className="accent">
+              <a href="/">Youssra</a>
             </li>
             <li>
-              <a href="projects">Projects</a>
-            </li>
-            <li>
-            <a href="mailto:email@example.com">Email</a>
+            <a href="mailto:email@example.com">contact</a>
             </li>
           </ul>
         </nav>
