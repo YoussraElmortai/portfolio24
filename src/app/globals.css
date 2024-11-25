@@ -28,7 +28,6 @@ h4 {
   font-family: var(--heading);
 }
 
-
 header {
   display: flex;
   flex-direction: row;
