@@ -1,0 +1,23 @@
+footer {
+    width: 100vw;
+    margin-top: 1rem;
+    overflow: hidden;
+    padding-right: 1rem;
+  
+    & ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      margin-top: 1.5rem;
+      margin-right: 1rem;
+      gap: 0.5rem;
+  
+      & li {
+        list-style: "";
+      }
+    }
+  
+    & img {
+      height: 1.2rem;
+    }
+  }

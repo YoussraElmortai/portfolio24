@@ -9,7 +9,7 @@ export default function Header() {
               <a href="/">Youssra</a>
             </li>
             <li>
-            <a href="mailto:email@example.com">contact</a>
+            <a href="mailto:youssramortai01@gmail.com">contact</a>
             </li>
           </ul>
         </nav>
