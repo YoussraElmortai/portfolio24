@@ -26,20 +26,6 @@ header {
         font-size: 2rem;
       }
   
-      & li:last-of-type {
-        & a {
-          background-color: var(--hotpink);
-          color: var(--text-color);
-          border: solid 2px var(--text-color);
-          border-radius: 5rem;
-        }
-  
-        & a:hover {
-          background-color: var(--text-color);
-          color: var(--bg-color);
-        }
-      }
-  
       & a {
         font-weight: 500;
         text-decoration: none;
