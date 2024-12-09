@@ -133,12 +133,6 @@ main {
     height: 20rem;
   }
 
-
-  &:hover .bgimage {
-    scale: 1.2;
-    transition: all 0.3s ease-out;
-  }
-
   & .bgimage{
     position: absolute;
     z-index: 1;
@@ -148,8 +142,7 @@ main {
   }
 
   &:hover .link{
-    background-color:#ff72b8 ;
-    transition: all 0.3s ease-out;
+    transition: all 0.2s ease-out;
   }
 }
 
@@ -164,7 +157,7 @@ main {
   width: fit-content;
   z-index: 2;
   padding: 0.5rem 1rem;
-  background-color: #ff72b8ce;
+  background-color: var(--accent-color) ;
   border-radius: 2rem;
   margin-bottom: 1rem;
   margin-left: 1rem;
@@ -172,6 +165,14 @@ main {
   & img{
     height: 1.5rem;
     width: 1.5rem;
+  }
+
+  &:hover {
+    padding:  0.5rem 1.2rem;
+  }
+
+  &:hover img {
+    width: 1.7rem;
   }
 }
 
