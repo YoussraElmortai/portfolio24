@@ -17,24 +17,7 @@ export default function Home() {
           </p>
         </section>
 
-        <section className="skills">
-          <ul>
-            <li>html</li>
-            <li>Javascript</li>
-            <li>React</li>
-            <li>CSS</li>
-            <li>Figma</li>
-            <li>Responsive design</li>
-          </ul>
-        </section>
-
         <section className='projects'>
-          <h2>Selected Works</h2>
-          <div className='text'>
-            <p>
-              Selected works from school projects to personal projects
-            </p>
-          </div>
           <section className='wrapper'>
             <div className='card'>
               <img
