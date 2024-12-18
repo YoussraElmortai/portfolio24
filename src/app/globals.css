@@ -31,42 +31,6 @@ h4 {
   font-family: var(--heading);
 }
 
-header {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: 10vh;
-}
-
-nav {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  padding: 1rem;
-
-  & ul {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    & li {
-      list-style: "";
-      align-self: center;
-    }
-
-    & .accent {
-      font-size: 2rem;
-    }
-
-    & a {
-      font-weight: 500;
-      text-decoration: none;
-      color: var(--text-color);
-      padding: 0.5rem;
-    }
-  }
-}
 
 .intro {
   padding: 1rem;
@@ -190,27 +154,6 @@ main {
     background-color:var(--grey) ;
     padding: 0.25rem 0.75rem;
     border-radius: 1rem;
-  }
-}
-
-footer {
-  margin-top: 1rem;
-  overflow: hidden;
-  padding: 1rem;
-
-  & ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    gap: 0.5rem;
-
-    & li {
-      list-style: "";
-    }
-  }
-
-  & img {
-    height: 1.2rem;
   }
 }
 

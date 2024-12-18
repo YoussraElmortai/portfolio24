@@ -1,3 +1,4 @@
+import "./style.css";
 
 export default function Header() {
   return (
@@ -6,7 +7,7 @@ export default function Header() {
         <nav>
           <ul>
             <li>
-              <a href="/"><span className="accent">Y</span>oussra Elmortai</a>
+              <a href="/"><h1>Youssra Elmortai</h1></a>
             </li>
           </ul>
         </nav>
