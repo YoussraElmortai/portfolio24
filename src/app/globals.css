@@ -1,11 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
-
 :root {
   --heading: "Bebas Neue", sans-serif;
   --text-color: #1d1c1d;
-  --accent-color: hotpink;
-  --accent-color-transparent: hotpink;
+  --accent-color: #890000;
+  --accent-color-transparent: #890000a4;
   --accent: "UnifrakturMaguntia", cursive;
   --bg-color: #e3dddd;
   --grey:#b5b5b5b4;
@@ -22,6 +19,9 @@ body {
   background-color: var(--bg-color);
   color: var(--text-color);
   max-width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
 }
 
 h1,
@@ -55,6 +55,7 @@ h4 {
 }
 
 main {
+  flex: 1;
   display: flex;
   flex-direction: column;
   margin-top: 1.5rem;
