@@ -18,12 +18,8 @@ header {
       justify-content: space-between;
   
       & li {
-        list-style: "";
+        list-style: " ";
         align-self: center;
-      }
-  
-      & .accent{
-        font-size: 2rem;
       }
   
       & a {

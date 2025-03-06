@@ -7,7 +7,13 @@ export default function Header() {
         <nav>
           <ul>
             <li>
-              <a href="/"><h1>Youssra Elmortai</h1></a>
+              <a href='/'>
+                <h1>Yous</h1>
+              </a>
+            </li>
+            <li>< a href="/projects">projects</a></li>
+            <li>
+              <a href='/resume'>resume</a>
             </li>
           </ul>
         </nav>
@@ -15,5 +21,3 @@ export default function Header() {
     </>
   );
 }
-
-  

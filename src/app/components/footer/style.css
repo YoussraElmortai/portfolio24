@@ -1,6 +1,5 @@
 footer {
-    margin-top: 1rem;
-    overflow: hidden;
+    margin-top: 1rem; 
     padding-right: 1rem;
     margin-bottom: 1rem;
   
@@ -8,16 +7,14 @@ footer {
       display: flex;
       flex-direction: row;
       justify-content: flex-end;
-      margin-top: 1.5rem;
-      margin-right: 1rem;
       gap: 0.5rem;
   
       & li {
-        list-style: "";
+        list-style: " ";
       }
     }
   
     & img {
-      height: 1.2rem;
+      height: 1.5rem;
     }
   }
