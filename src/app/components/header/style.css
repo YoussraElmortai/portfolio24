@@ -3,13 +3,13 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
     font-family: var(--heading);
-    padding: 0 1rem;
-  }
+
   
-  nav {
+  & nav {
     display: flex;
     align-items: center;
     width: 100%;
+    padding: 1.5rem 1rem;
   
     & ul {
       width: 100%;
@@ -26,7 +26,7 @@ header {
         font-weight: 500;
         text-decoration: none;
         color: var(--text-color);
-        padding: 0.5rem;
       }
     }
   }
+}

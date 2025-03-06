@@ -4,8 +4,8 @@
   --accent-color: #890000;
   --accent-color-transparent: #890000a4;
   --accent: "UnifrakturMaguntia", cursive;
-  --bg-color: #e3dddd;
-  --grey:#b5b5b5b4;
+  --bg-color: #e3e1e1;
+  --text-grey:#3d3d3d;
 }
 
 * {
@@ -31,9 +31,14 @@ h4 {
   font-family: var(--heading);
 }
 
+p{
+  color: var(--text-grey);
+}
+
 
 main {
   flex: 1;
   display: flex;
   flex-direction: column;
+  padding: 1rem;
 }
