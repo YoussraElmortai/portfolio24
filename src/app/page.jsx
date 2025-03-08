@@ -15,20 +15,18 @@ export default function Home() {
     <>
       <section>
         <div className='logbook'>
-          <div>
             <div className='dot' />
             <div>
-              <h3> Captain's logbook entry 01:</h3>
-              <h4>Stardate: {starDate}</h4>
+              <h3> Captain's log entry 01 :</h3>
+              <h4>Stardate : {starDate}</h4>
+              <article>
+                <p>
+                  I'm Youssra Elmortai, <br /> I am a Frontend
+                  developer and designer from Amsterdam.
+                </p>
+              </article>
             </div>
           </div>
-          <article>
-            <p>
-              I'm Youssra Elmortai, <br /> I am a Frontend developer
-              designer from Amsterdam.
-            </p>
-          </article>
-        </div>
         <div className='highlights'></div>
       </section>
     </>

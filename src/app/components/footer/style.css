@@ -1,20 +1,18 @@
 footer {
-    margin-top: 1rem; 
-    padding-right: 1rem;
-    margin-bottom: 1rem;
-  
-    & ul {
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-end;
-      gap: 0.5rem;
-  
-      & li {
-        list-style: " ";
-      }
-    }
-  
-    & img {
-      height: 1.5rem;
+  padding: 1rem;
+
+  & ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 0.5rem;
+
+    & li {
+      list-style: "";
     }
   }
+
+  & img {
+    height: 20px;
+  }
+}
