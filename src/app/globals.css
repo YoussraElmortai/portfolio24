@@ -1,11 +1,7 @@
 :root {
-  --heading: "Bebas Neue", sans-serif;
   --text-color: #1d1c1d;
-  --accent-color: #890000;
-  --accent-color-transparent: #890000a4;
-  --accent: "UnifrakturMaguntia", cursive;
   --bg-color: #e3e1e1;
-  --text-grey:#3d3d3d;
+  --text-grey: #3d3d3d;
 }
 
 * {
@@ -24,14 +20,7 @@ body {
   flex-flow: column;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  font-family: var(--heading);
-}
-
-p{
+p {
   color: var(--text-grey);
 }
 
@@ -41,4 +30,30 @@ main {
   display: flex;
   flex-direction: column;
   padding: 1rem;
+}
+
+.logbook {
+  display: flex;
+  flex-flow: column;
+  gap: 1.5rem;
+
+  & div:first-of-type {
+    display: flex;
+    flex-flow: row;
+    gap: 1rem;
+  }
+
+  & article {
+    @media screen and (min-width: 432px) {
+      width: 40vw;
+    }
+  }
+}
+
+.dot {
+  width: 1rem;
+  height: 1rem;
+  background: #add400;
+  border-radius: 50%;
+  align-self: center;
 }

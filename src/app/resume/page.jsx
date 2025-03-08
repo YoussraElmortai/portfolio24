@@ -96,21 +96,51 @@ export default function resume() {
           <article>
             <h3>HTML</h3>
             <ul>
-              <li>HTML</li>
+              <li>Semantic document structure </li>
+              <li>Accessibility best practices</li>
+              <li>Static site generation</li>
+              <li>SEO-friendly markup techniques</li>
             </ul>
           </article>
 
           <article>
-            <h3>HTML</h3>
+            <h3>CSS</h3>
             <ul>
-              <li>HTML</li>
+              <li>CSS animations</li>
+              <li> Modern featuresets and CSS methodology </li>
+              <li> SCSS/Sass</li>
+              <li>Responsive design principles</li>
             </ul>
           </article>
 
           <article>
-            <h3>HTML</h3>
+            <h3>JavaScript</h3>
             <ul>
-              <li>HTML</li>
+              <li>
+                knowledge of modern frameworks including Vue, React,
+                and Svelte
+              </li>
+              <li>DOM manipulation and event handling</li>
+              <li>Basic understanding of ES6+ features</li>
+              <li>Working with APIs</li>
+            </ul>
+          </article>
+
+          <article>
+            <h3>Design</h3>
+            <ul>
+              <li>creating wireframes and prototyping</li>
+              <li>
+                Ability to translate design mockups into functional
+                code
+              </li>
+              <li>
+                Familiarity with responsive design and mobile-first
+                approaches
+              </li>
+              <li>
+                Basic knowledge of accessibility standards in design
+              </li>
             </ul>
           </article>
         </div>

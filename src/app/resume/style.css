@@ -70,4 +70,8 @@
         flex-flow: column;
         gap: 0.5rem;
     }
+
+    & ul{
+        list-style: "";
+    }
 }
