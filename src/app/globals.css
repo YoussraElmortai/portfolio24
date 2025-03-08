@@ -35,9 +35,11 @@ main {
 .logbook {
   display: flex;
   flex-flow: row;
-  gap: 1.5rem;
+  gap: 1rem;
 
   & article {
+    margin-top: 0.5rem;
+    
     @media screen and (min-width: 432px) {
       width: 40vw;
     }
@@ -45,11 +47,13 @@ main {
 }
 
 .dot {
-  width: 1.5rem;
+  width: 20px;
   aspect-ratio: 1/1;
+  border-radius: 50%;
   background: #add400;
-  align-self: center;
-  animation: blink 1s ease-in-out infinite;
+  margin-top: 0.5rem;
+  align-self: flex-start;
+  animation: blink 2s ease-in-out infinite;
 }
 
 @keyframes blink {
