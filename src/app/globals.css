@@ -2,6 +2,16 @@
   --text-color: #1d1c1d;
   --bg-color: #e3e1e1;
   --text-grey: #3d3d3d;
+  --headings: 'dirtyline', sans-serif;
+}
+
+@font-face {
+  font-family: 'Dirtyline';
+  src: url('fonts/Dirtyline 36daysoftype 2022.woff2') format('woff2'),
+    url('fonts/Dirtyline 36daysoftype 2022.woff') format('woff'),
+    url('fonts/Dirtyline 36daysoftype 2022.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 * {
@@ -24,6 +34,11 @@ p {
   color: var(--text-grey);
 }
 
+h1,
+h2 {
+  font-family: var(--headings);
+}
+
 
 main {
   flex: 1;
@@ -37,9 +52,13 @@ main {
   flex-flow: row;
   gap: 1rem;
 
+  & h3 {
+    font-family: var(--headings);
+  }
+
   & article {
     margin-top: 0.5rem;
-    
+
     @media screen and (min-width: 432px) {
       width: 40vw;
     }
