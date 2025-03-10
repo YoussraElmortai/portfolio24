@@ -1,16 +1,18 @@
 .resume_intro {
-    height: 65vh;
+    height: 60vh;
     display: flex;
     flex-flow: column;
     justify-content: center;
     margin-top: 1.5rem;
+    gap: 1rem;
 
     & h1 {
-        font-size: 3.5rem;
+        font-size: 64px;
+        margin-bottom: 0.5rem;
     }
 
     & p {
-        font-size: 2rem;
+        font-size: 35px;
     }
 }
 

@@ -6,6 +6,10 @@ header {
   & nav {
     padding: 1.5rem 1rem;
 
+    & h1{
+      margin-top: 0.5rem;
+    }
+
     & ul {
       display: flex;
       flex-direction: row;
@@ -17,7 +21,7 @@ header {
       }
 
       & a {
-        font-weight: 500;
+        font-weight: bold;
         text-decoration: none;
         color: var(--text-color);
       }
