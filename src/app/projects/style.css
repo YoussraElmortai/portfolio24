@@ -37,12 +37,8 @@
     }
 
     &:hover {
-        & article {
-            background: linear-gradient(0deg, #060606d7 11%, #3b454527 48%, #75757530 70%);
-        }
-
-        & .links {
-            opacity: 1;
+        & .project_image img {
+            scale: 1.2;
         }
     }
 }
@@ -50,6 +46,8 @@
 .project_content {
     display: flex;
     justify-content: space-between;
+    background: linear-gradient(0deg, #060606d7 11%, #3b454527 48%, #75757530 70%);
+
 }
 
 .content_heading {
@@ -60,6 +58,7 @@
 
 .project_image {
     position: absolute;
+    overflow: hidden;
     width: 100%;
     height: 100%;
 
@@ -67,12 +66,11 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
+        transition: 0.2s all ease-out;
     }
 }
 
 .links {
-    opacity: 0;
-
     & img {
         filter: invert(100);
         rotate: 45deg;
