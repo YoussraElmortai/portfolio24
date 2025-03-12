@@ -1,6 +1,7 @@
 :root {
   --text-color: #1d1c1d;
   --bg-color: #e3e1e1;
+  --sec-grey:  #999999 ;
   --text-grey: #3d3d3d;
   --headings: 'dirtyline', sans-serif;
 }

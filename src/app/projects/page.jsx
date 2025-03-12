@@ -16,7 +16,7 @@ export default function projects() {
           <article className='project_content'>
             <div className='content_heading'>
               <span>Website</span>
-              <h3>Traveling Beauty</h3>
+              <h3>Unc inc</h3>
             </div>
             <div className='links'>
               <a href='/' target='blank'>

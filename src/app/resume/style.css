@@ -4,6 +4,7 @@
     flex-flow: column;
     justify-content: center;
     margin-top: 1.5rem;
+    margin-bottom: 2rem;
     gap: 1rem;
 
     & h1 {
