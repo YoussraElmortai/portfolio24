@@ -17,7 +17,7 @@ export default function Projects() {
             </a>
           </li>
           <li>
-            <a className='list_items' href='/projects/uncinc'>
+            <a className='list_items' href='./projects/uncinc'>
               <h3>Traveling Beauty</h3>
               <span>Website / Design</span>
             </a>
