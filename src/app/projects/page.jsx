@@ -11,21 +11,27 @@ export default function projects() {
       <section className='projects'>
         <ul className='project_list'>
           <li>
-            <a className='list_items' href='/projects/Uncinc'>
+            <a className='list_items' href='/Projects/Uncinc'>
               <h3>Unc inc</h3>
-              <span>Website</span>
+              <span>Website / Internship</span>
             </a>
           </li>
           <li>
-            <a className='list_items' href='/projects/Uncinc'>
+            <a className='list_items' href='/Projects/Uncinc'>
               <h3>Traveling Beauty</h3>
-              <span>Website / design</span>
+              <span>Website / Design</span>
             </a>
           </li>
           <li>
-            <a className='list_items' href='/projects/Uncinc'>
+            <a className='list_items' href='/Projects/Uncinc'>
               <h3>Coffee Roulette</h3>
-              <span>Website / design</span>
+              <span>Website / Design</span>
+            </a>
+          </li>
+          <li>
+            <a className='list_items' href='/Projects/Uncinc'>
+              <h3>The substance</h3>
+              <span>Design</span>
             </a>
           </li>
         </ul>

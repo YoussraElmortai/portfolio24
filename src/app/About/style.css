@@ -1,4 +1,4 @@
-.resume_intro {
+.about_intro {
     height: 60vh;
     display: flex;
     flex-flow: column;
@@ -18,7 +18,7 @@
 }
 
 
-.resume_nav {
+.about_nav {
     width: 100%;
     padding: 1rem;
     margin-bottom: 1.5rem;
@@ -48,7 +48,7 @@
     }
 }
 
-.resume_section{
+.about_section{
     margin: 2.5rem 0 2.5rem;
     display: grid;
     grid-template-columns: 1fr 1fr;

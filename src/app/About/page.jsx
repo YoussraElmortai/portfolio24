@@ -1,22 +1,20 @@
 import "./style.css";
 
-export default function resume() {
+export default function about() {
   return (
     <>
-      <section className='resume_intro'>
+    <div className="orb"/>
+      <section className='about_intro'>
         <h1>Youssra Elmortai</h1>
         <article>
           <p>
             Frontend developer with full stack ambitions and a strong
-            focus on accessibility and interaction.{" "}
+            focus on accessibility and interaction.
           </p>
         </article>
-        <span>
-          feel free to download a PDF version of this resume
-        </span>
       </section>
 
-      <nav className='resume_nav'>
+      <nav className='about_nav'>
         <ul>
           <li>
             <a href='#experience'>Experience</a>
@@ -32,7 +30,7 @@ export default function resume() {
 
       <hr />
 
-      <section className='resume_section' id='experience'>
+      <section className='about_section' id='experience'>
         <h2>Experience</h2>
 
         <div className='content'>
@@ -63,7 +61,7 @@ export default function resume() {
 
       <hr />
 
-      <section className='resume_section' id='education'>
+      <section className='about_section' id='education'>
         <h2>Education</h2>
 
         <div className='content'>
@@ -89,7 +87,7 @@ export default function resume() {
 
       <hr />
 
-      <section className='resume_section' id='expertise'>
+      <section className='about_section' id='expertise'>
         <h2>Expertise</h2>
 
         <div className='content'>
