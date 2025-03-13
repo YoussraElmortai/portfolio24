@@ -13,8 +13,8 @@ export default function Home() {
 
   return (
     <>
-      <section>
-        <div className='logbook'>
+
+        <section className='logbook'>
             <div className='dot' />
             <div>
               <h3> Captain's log entry 01 :</h3>
@@ -26,9 +26,7 @@ export default function Home() {
                 </p>
               </article>
             </div>
-          </div>
-        <div className='highlights'></div>
-      </section>
+          </section>
     </>
   );
 }
