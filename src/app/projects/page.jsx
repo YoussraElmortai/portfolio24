@@ -1,7 +1,7 @@
 "use client";
 import "./style.css";
 
-export default function projects() {
+export default function Projects() {
   return (
     <>
       <section className='projects_intro'>
