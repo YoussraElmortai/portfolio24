@@ -7,9 +7,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Youssra Elmortai",
-  description: "webdev portfolio",
+  description: "dev portfolio",
   icons: {
-    icon: "me.jpg", 
+    icon: "/me.jpg", 
   },
 };
 

@@ -1,5 +1,9 @@
 .works_intro {
     margin-bottom: 2rem;
+
+    & h1{
+        font-size: 50px;
+    }
 }
 
 .works{  
@@ -40,5 +44,40 @@
 .links {
     & img {
         rotate: 45deg;
+    }
+}
+
+.work{
+ & h1{
+    font-size: 50px;
+ }
+
+ & img{
+    object-fit: cover;
+    height: 40vh;
+    width: 100%;
+    border-radius: 0.5rem;
+ }
+}
+
+.work_description{
+    background: var(--sec-grey);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+
+    & p{
+        color: var( --text-color);
+    }
+}
+
+.work_info{
+    background: var(--text-color);
+    color: var(--bg-color);
+    border-radius: 0.5rem;
+
+    & ul{
+        display: flex;
+        flex-flow: column;
+        gap: 0.5;
     }
 }

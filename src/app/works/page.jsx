@@ -5,7 +5,7 @@ export default function Works() {
   return (
     <>
       <section className='works_intro'>
-        <h2>works</h2>
+        <h1>works</h1>
       </section>
 
       <section className='works'>
