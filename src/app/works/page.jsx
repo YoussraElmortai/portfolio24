@@ -1,35 +1,35 @@
 "use client";
 import "./style.css";
 
-export default function Projects() {
+export default function Works() {
   return (
     <>
-      <section className='projects_intro'>
-        <h2>Projects</h2>
+      <section className='works_intro'>
+        <h2>works</h2>
       </section>
 
-      <section className='projects'>
-        <ul className='project_list'>
+      <section className='works'>
+        <ul className='works_list'>
           <li>
-            <a className='list_items' href='projects/Uncinc/'>
+            <a className='list_items' href='works/uncinc/'>
               <h3>Unc inc</h3>
               <span>Website / Internship</span>
             </a>
           </li>
           <li>
-            <a className='list_items' href='projects/Uncinc'>
+            <a className='list_items' href='works/uncinc'>
               <h3>Traveling Beauty</h3>
               <span>Website / Design</span>
             </a>
           </li>
           <li>
-            <a className='list_items' href='projects/Uncinc'>
+            <a className='list_items' href='works/uncinc'>
               <h3>Coffee Roulette</h3>
               <span>Website / Design</span>
             </a>
           </li>
           <li>
-            <a className='list_items' href='projects/Uncinc'>
+            <a className='list_items' href='works/uncinc'>
               <h3>The substance</h3>
               <span>Design</span>
             </a>

@@ -1,8 +1,8 @@
-.projects_intro {
+.works_intro {
     margin-bottom: 2rem;
 }
 
-.projects{  
+.works{  
     & ul{
         display: flex;
         flex-flow: column;
