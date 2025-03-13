@@ -11,25 +11,25 @@ export default function Projects() {
       <section className='projects'>
         <ul className='project_list'>
           <li>
-            <a className='list_items' href='projects/uncinc/'>
+            <a className='list_items' href='./Uncinc/'>
               <h3>Unc inc</h3>
               <span>Website / Internship</span>
             </a>
           </li>
           <li>
-            <a className='list_items' href='projects/uncinc/'>
+            <a className='list_items' href='./Uncinc'>
               <h3>Traveling Beauty</h3>
               <span>Website / Design</span>
             </a>
           </li>
           <li>
-            <a className='list_items' href='projects/uncinc'>
+            <a className='list_items' href='./Uncinc'>
               <h3>Coffee Roulette</h3>
               <span>Website / Design</span>
             </a>
           </li>
           <li>
-            <a className='list_items' href='projects/uncinc'>
+            <a className='list_items' href='./Uncinc'>
               <h3>The substance</h3>
               <span>Design</span>
             </a>
