@@ -29,7 +29,7 @@ export default function Uncinc() {
             </li>
           </ul>
         </div>
-        <img src='/bear.jpg'></img>
+        <img src='/./bear.jpg'></img>
         <a href='/works'>Back to projects</a>
       </section>
     </>

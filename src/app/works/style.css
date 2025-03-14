@@ -1,19 +1,20 @@
 .works_intro {
     margin-bottom: 2rem;
 
-    & h1{
+    & h1 {
         font-size: 50px;
     }
 }
 
-.works{  
-    & ul{
+.works {
+    & ul {
         display: flex;
         flex-flow: column;
         gap: 0.5rem;
+
     }
 
-    & li{   
+    & li {
         list-style: " ";
         border-bottom: solid 1px var(--sec-grey);
         border-top: solid 1px var(--sec-grey);
@@ -23,14 +24,33 @@
         color: var(--text-color);
         transition: 0.3s ease-in-out all;
 
-        &:hover{
+        & img {
+            display: none;
+        }
+
+        @media screen and (max-width: 432px) {
+            height: fit-content;
+            border: solid 1px;
+            border-radius: 0.5rem;
+            overflow: hidden;
+            padding: 0;
+
+            & img {
+                height: 10rem;
+                width: 100%;
+                object-fit: cover;
+                display: block;
+            }
+        }
+
+        &:hover {
             background: var(--text-color);
             color: var(--bg-color);
         }
     }
 }
 
-.list_items{
+.list_items {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,6 +58,11 @@
     text-decoration: none;
     color: inherit;
     padding: 0.5rem;
+
+    @media screen and (max-width: 432px) {
+        flex-flow: column;
+        gap: 0.5rem;
+    }
 }
 
 
@@ -47,35 +72,35 @@
     }
 }
 
-.work{
- & h1{
-    font-size: 50px;
- }
+.work {
+    & h1 {
+        font-size: 50px;
+    }
 
- & img{
-    object-fit: cover;
-    height: 40vh;
-    width: 100%;
-    border-radius: 0.5rem;
- }
+    & img {
+        object-fit: cover;
+        height: 40vh;
+        width: 100%;
+        border-radius: 0.5rem;
+    }
 }
 
-.work_description{
+.work_description {
     background: var(--sec-grey);
     padding: 0.5rem;
     border-radius: 0.5rem;
 
-    & p{
-        color: var( --text-color);
+    & p {
+        color: var(--text-color);
     }
 }
 
-.work_info{
+.work_info {
     background: var(--text-color);
     color: var(--bg-color);
     border-radius: 0.5rem;
 
-    & ul{
+    & ul {
         display: flex;
         flex-flow: column;
         gap: 0.5;
