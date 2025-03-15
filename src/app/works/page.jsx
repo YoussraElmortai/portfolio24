@@ -12,7 +12,7 @@ export default function Works() {
         <ul className='works_list'>
           <li>
             <a className='list_items' href='works/uncinc/'>
-            <img src="/bear.jpg"></img>
+            <img src="bear.jpg"></img>
               <h3>Unc inc</h3>
               <span>Website / Internship</span>
 

@@ -5,6 +5,7 @@ export default function Uncinc() {
     <>
       <section className='work'>
         <h1>Unc inc</h1>
+        <h2>New corporate website</h2>
         <article className='work_description'>
           <p>
             As a Frontend developer intern I contributed to the
@@ -19,17 +20,15 @@ export default function Uncinc() {
             accessibility, performance, and overall user satisfaction.
           </p>
         </article>
+
         <div className='work_info'>
           <ul>
-            <li>
-              Live website<a href=''></a>
-            </li>
             <li>
               my role:<span>Frontend Developer intern</span>
             </li>
           </ul>
         </div>
-        <img src='/./bear.jpg'></img>
+        <img src='/bear.jpg'></img>
         <a href='/works'>Back to projects</a>
       </section>
     </>

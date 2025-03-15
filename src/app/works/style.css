@@ -73,6 +73,10 @@
 }
 
 .work {
+    display: flex;
+    flex-flow: column;
+    gap: 1.5rem;
+
     & h1 {
         font-size: 50px;
     }
@@ -99,6 +103,7 @@
     background: var(--text-color);
     color: var(--bg-color);
     border-radius: 0.5rem;
+    padding: 0.5rem;
 
     & ul {
         display: flex;
