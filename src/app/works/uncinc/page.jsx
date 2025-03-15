@@ -24,7 +24,7 @@ export default function Uncinc() {
         <div className='work_info'>
           <ul>
             <li>
-              my role:<span>Frontend Developer intern</span>
+              my role: <span>Frontend Developer intern</span>
             </li>
           </ul>
         </div>

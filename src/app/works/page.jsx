@@ -36,6 +36,12 @@ export default function Works() {
               <span>Design</span>
             </a>
           </li>
+          <li>
+            <a className='list_items' href='works/uncinc'>
+              <h3>Oba</h3>
+              <span>Website / Design</span>
+            </a>
+          </li>
         </ul>
       </section>
     </>

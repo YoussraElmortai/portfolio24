@@ -3,8 +3,8 @@ position: absolute;
 z-index: -1;
 aspect-ratio: 1/1;
 height: auto;
-width: 20rem;
-background: blue;
+width: 15rem;
+background: #add400;
 }
 
 .about_intro {
