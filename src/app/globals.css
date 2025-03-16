@@ -83,7 +83,11 @@ main {
     background: #add400;
   }
 
-  to {
+  50% {
     background: #ffb700;
+  }
+
+  to {
+    background: #add400;
   }
 }
