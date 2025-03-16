@@ -1,3 +1,5 @@
+/* works overviewpage styling */
+
 .works_intro {
     margin-bottom: 2rem;
 
@@ -54,6 +56,7 @@
     }
 }
 
+
 .list_items {
     display: flex;
     align-items: center;
@@ -69,12 +72,7 @@
     }
 }
 
-
-.links {
-    & img {
-        rotate: 45deg;
-    }
-}
+/* work detailpage styling */
 
 .work {
     display: flex;
@@ -83,13 +81,6 @@
 
     & h1 {
         font-size: 50px;
-    }
-
-    & img {
-        object-fit: cover;
-        height: 40vh;
-        width: 100%;
-        border-radius: 0.5rem;
     }
 }
 
@@ -113,5 +104,27 @@
         display: flex;
         flex-flow: column;
         gap: 0.5;
+    }
+}
+
+.work_image {
+    object-fit: cover;
+    height: 40vh;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.links {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+
+    & img {
+        rotate: 270deg;
+        height: 20px;
+        width: 25px;
     }
 }
