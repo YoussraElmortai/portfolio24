@@ -1,14 +1,3 @@
-.orb{
-position: absolute;
-z-index: -1;
-aspect-ratio: 1/1;
-height: auto;
-width: 10rem;
-background: #add400;
-border-radius: 50%;
-animation: blink 6s ease-in-out infinite;
-}
-
 .about_intro {
     height: 60vh;
     display: flex;

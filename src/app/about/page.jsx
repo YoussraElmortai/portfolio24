@@ -4,7 +4,6 @@ import "./style.css";
 export default function About() {
   return (
     <>
-      <div className='orb' />
       <section className='about_intro'>
         <h1>Youssra Elmortai</h1>
         <article>
