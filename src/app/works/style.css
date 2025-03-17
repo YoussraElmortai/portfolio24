@@ -77,16 +77,41 @@
 /* work detailpage styling */
 
 .work {
-    display: flex;
-    flex-flow: column;
-    gap: 1.5rem;
-
     & h1 {
         font-size: 50px;
     }
 }
 
+.work_intro {
+    margin-bottom: 2rem;
+}
+
+.work_bento {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0.5rem;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "description description"
+        "info info"
+        "animated animated"
+        "colors colors"
+        "stacked stacked"
+        "links links";
+
+    @media screen and (min-width: 768px) {
+        grid-template-areas:
+            "description description"
+            "info info"
+            "animated colors"
+            "stacked stacked"
+            "links links";
+    }
+
+}
+
 .work_description {
+    grid-area: description;
     background: var(--sec-grey);
     padding: 0.5rem;
     border-radius: 0.5rem;
@@ -97,16 +122,39 @@
 }
 
 .work_info {
-    background: var(--text-color);
+    grid-area: info;
     color: var(--bg-color);
-    border-radius: 0.5rem;
-    padding: 0.5rem;
 
     & ul {
-        display: flex;
-        flex-flow: column;
-        gap: 0.5;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem;
+        list-style: "";
+
+        & li {
+            padding: 0.5rem;
+            background-color: var(--text-color);
+            border-radius: 0.5rem;
+        }
     }
+}
+
+.work_animated {
+    grid-area: animated;
+    background-color: var(--sec-grey);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.work_colors {
+    grid-area: colors;
+    background-color: var(--text-color);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.stacked {
+    grid-area: stacked;
 }
 
 .work_image {
@@ -114,6 +162,10 @@
     height: 40vh;
     width: 100%;
     border-radius: 0.5rem;
+}
+
+.work_links {
+    grid-area: links;
 }
 
 .links {
