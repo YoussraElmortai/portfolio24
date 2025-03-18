@@ -4,11 +4,11 @@ export default function Uncinc() {
   return (
     <>
       <section className='work'>
-        <div className="work_intro">
-        <h1>Unc inc</h1>
-        <h2>New corporate website</h2>
+        <div className='work_intro'>
+          <h1>Unc inc</h1>
+          <h2>New corporate website</h2>
         </div>
-        <div className='work_bento'>
+        <div className='work_grid'>
           <article className='work_description'>
             <p>
               As a Frontend developer intern I contributed to the
@@ -25,25 +25,25 @@ export default function Uncinc() {
             </p>
           </article>
           <div className='work_info'>
+            <h3>This work was built with... </h3>
             <ul>
-              <li>
-                my role: <span>Frontend Developer intern</span>
-              </li>
-              <li>
-                Techstack: <span>Frontend Developer intern</span>
-              </li>
+              <li>React</li>
+              <li>Drupal</li>
+              <li>CSS animations</li>
             </ul>
           </div>
-          <div className="work_animated">
-            aimated pic
+          <div className='work_colors'>
+            <h3>colors</h3>
           </div>
-          <div className="work_colors">
-            colors of projects
+          
+          <div className='work_highlights'>
+            <h3>Highlights of this work</h3>
           </div>
+
           <div className='stacked'>
             <img className='work_image' src='/bear.jpg'></img>
           </div>
-          <div className="work_links">
+          <div className='work_links'>
             <a className='links' href='/works'>
               <img src='/arrow.svg' /> Back to works
             </a>
