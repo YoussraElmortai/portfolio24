@@ -2,10 +2,9 @@ header {
   flex-wrap: wrap;
   font-family: var(--heading);
   width: 100%;
+  padding: 1.5rem;
 
   & nav {
-    padding: 1.5rem 1rem;
-
     & h1{
       margin-top: 0.5rem;
     }
