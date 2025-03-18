@@ -40,9 +40,6 @@ export default function Uncinc() {
             <h3>Highlights of this work</h3>
           </div>
 
-          <div className='stacked'>
-            <img className='work_image' src='/bear.jpg'></img>
-          </div>
           <div className='work_links'>
             <a className='links' href='/works'>
               <img src='/arrow.svg' /> Back to works

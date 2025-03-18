@@ -96,7 +96,6 @@
         "info info "
         "colors colors"
         "highlights highlights"
-        "stacked stacked"
         "links links";
 
     @media screen and (min-width: 768px) {
@@ -104,7 +103,6 @@
             "description description"
             "info colors"
             "highlights highlights "
-            "stacked stacked"
             "links links";
     }
 
@@ -145,17 +143,6 @@
 
 .work_colors {
     grid-area: colors;
-}
-
-.stacked {
-    grid-area: stacked;
-}
-
-.work_image {
-    object-fit: cover;
-    height: 40vh;
-    width: 100%;
-    border-radius: 0.5rem;
 }
 
 .work_links {
