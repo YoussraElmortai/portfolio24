@@ -40,6 +40,17 @@ h2 {
   font-family: var(--headings);
 }
 
+h1{
+  margin-bottom: 2rem;
+}
+
+h2{
+  margin-bottom: 1rem;
+}
+
+ h3, h4{
+  margin-bottom: 0.5rem;
+}
 
 main {
   position: relative;
@@ -60,7 +71,6 @@ main {
   }
 
   & article {
-    margin-top: 0.5rem;
 
     @media screen and (min-width: 432px) {
       width: 40vw;

@@ -15,13 +15,7 @@ export default function Uncinc() {
               development and enhancement of frontend components for
               the Unc Inc corporate website, playing a key role in
               improving its functionality and user experience. I also
-              expanded and refined the existing component library,
-              ensuring greater consistency and efficiency across
-              projects. Using Docker, I managed and modified Drupal
-              fields to meet client needs effectively. Additionally, I
-              identified and resolved bugs on various client websites,
-              significantly improving their accessibility,
-              performance, and overall user satisfaction.
+              expanded and refined the existing component library.
             </p>
           </article>
           <div className='work_info'>
@@ -34,10 +28,20 @@ export default function Uncinc() {
           </div>
           <div className='work_colors'>
             <h3>colors</h3>
+            <div className="work_wrapper">
+            <div className='colors' />
+            <div className='colors' />
+            <div className='colors' />
+            </div>
           </div>
-          
+
           <div className='work_highlights'>
             <h3>Highlights of this work</h3>
+            <div className="work_wrapper">
+              <img src='https://i.pinimg.com/736x/21/5e/9a/215e9a59ff1913a65d531adcab756854.jpg' />
+              <img src='https://i.pinimg.com/736x/48/ab/06/48ab068081e9495f9013290e73f6722d.jpg' />
+              <img src='https://i.pinimg.com/474x/25/9b/e5/259be53d7c06a77f17a9ae8e070845a1.jpg' />
+            </div>
           </div>
 
           <div className='work_links'>
