@@ -27,7 +27,7 @@ export default function Uncinc() {
             </ul>
           </div>
           <div className='work_colors'>
-            <h3>colors</h3>
+            <h3>color pallette</h3>
             <div className="work_wrapper">
             <div className='colors' />
             <div className='colors' />
@@ -36,7 +36,7 @@ export default function Uncinc() {
           </div>
 
           <div className='work_highlights'>
-            <h3>Highlights of this work</h3>
+            <h3>See the highlights of this work</h3>
             <div className="work_wrapper">
               <img src='https://i.pinimg.com/736x/21/5e/9a/215e9a59ff1913a65d531adcab756854.jpg' />
               <img src='https://i.pinimg.com/736x/48/ab/06/48ab068081e9495f9013290e73f6722d.jpg' />
