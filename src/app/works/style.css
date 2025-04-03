@@ -1,11 +1,5 @@
 /* works overviewpage styling */
 
-.works_intro {
-    & h1 {
-        font-size: 50px;
-    }
-}
-
 .works {
     & ul {
         display: flex;
@@ -70,13 +64,6 @@
 }
 
 /* work detailpage styling */
-
-.work {
-    & h1 {
-        font-size: 50px;
-    }
-}
-
 
 .work_grid {
     display: grid;
