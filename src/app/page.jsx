@@ -13,20 +13,24 @@ export default function Home() {
 
   return (
     <>
-
-        <section className='logbook'>
-            <div className='dot' />
-            <div>
-              <h3> Captain's log entry 01 :</h3>
-              <h4>Stardate : {starDate}</h4>
-              <article>
-                <p>
-                  I'm Youssra Elmortai, <br /> I am a Frontend
-                  developer and designer from Amsterdam.
-                </p>
-              </article>
-            </div>
-          </section>
+      <section className="landing">
+        <div className='logbook'>
+          <div className='dot' />
+          <div>
+            <h3> Captain's log entry 01 :</h3>
+            <h4>Stardate : {starDate}</h4>
+            <article>
+              <p>
+                I'm Youssra Elmortai, <br /> I am a Frontend developer
+                and designer from Amsterdam.
+              </p>
+            </article>
+          </div>
+        </div>
+        <div className="glitch">
+          
+        </div>
+      </section>
     </>
   );
 }

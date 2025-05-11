@@ -48,8 +48,3 @@ export default function Works() {
   );
 }
 
-/* <div className='links'>
-                <a href='https://www.uncinc.nl/nl' target='blank'>
-                  <img src='arrow.svg' aria-hidden />
-                </a>
-              </div> */

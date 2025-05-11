@@ -28,11 +28,11 @@ export default function Uncinc() {
           </div>
           <div className='work_colors'>
             <h3>color pallette</h3>
-            <div className="work_wrapper">
-            <div className='colors' />
-            <div className='colors' />
-            <div className='colors' />
-            </div>
+            <ul >
+            <li className='colors'>#323232</li>
+            <li className='colors'> #767677</li>
+            <li className='colors'>#aaa</li>
+            </ul>
           </div>
 
           <div className='work_highlights'>
