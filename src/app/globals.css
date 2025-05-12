@@ -76,6 +76,12 @@ section{
   margin-bottom: 2rem;
 }
 
+.clip{
+  position: absolute;
+  top: -999px;
+  left: -999px;
+}
+
 .logbook {
   display: flex;
   flex-flow: row;

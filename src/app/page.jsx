@@ -27,9 +27,6 @@ export default function Home() {
             </article>
           </div>
         </div>
-        <div className="glitch">
-          
-        </div>
       </section>
     </>
   );
