@@ -19,41 +19,6 @@
         color: var(--text-color);
         transition: 0.2s ease-in-out all;
 
-
-        & img {
-            position: absolute;
-            display: none;
-        }
-
-        @media (max-width: 432px) {
-            height: fit-content;
-            border: solid 2px;
-            border-radius: 0.5rem;
-            padding: 0;
-            border: none;
-
-            &:nth-of-type(1n) {
-                background-color: #9ad17a;
-
-            }
-
-            &:nth-of-type(2n) {
-                background-color: #9d999a;
-
-            }
-
-
-            & img {
-                position: relative;
-                height: 10rem;
-                width: auto;
-                aspect-ratio: 1/1;
-                object-fit: cover;
-                display: block;
-                clip-path: url(#clippy);
-            }
-        }
-
         &:hover {
             background: var(--text-color);
             color: var(--bg-color);
