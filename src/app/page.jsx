@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <>
-      <section className="landing">
+      <section className='landing'>
         <div className='logbook'>
           <div className='dot' />
           <div>
@@ -26,6 +26,15 @@ export default function Home() {
               </p>
             </article>
           </div>
+        </div>
+        <div className='holographic_card'>
+          <h3>Javascript</h3>
+          <span></span>
+        </div>
+
+        <div className='holographic_card'>
+          <h3>Javascript</h3>
+          <span></span>
         </div>
       </section>
     </>
