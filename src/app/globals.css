@@ -31,13 +31,13 @@ body {
   flex-flow: column;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
 
 
   @media (min-width: 768px) {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
 
