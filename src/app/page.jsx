@@ -27,15 +27,8 @@ export default function Home() {
             </article>
           </div>
         </div>
-        <div className='holographic_card'>
-          <h3>Javascript</h3>
-          <span></span>
-        </div>
+        <div className=""></div>
 
-        <div className='holographic_card'>
-          <h3>Javascript</h3>
-          <span></span>
-        </div>
       </section>
     </>
   );

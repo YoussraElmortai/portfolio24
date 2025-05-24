@@ -45,40 +45,13 @@
 
 /* work detailpage styling */
 
-.work_grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.5rem;
-    grid-template-rows: auto;
-    grid-template-areas:
-        "description description"
-        "info info "
-        "colors colors"
-        "highlights highlights"
-        "links links";
-
-    @media (min-width: 768px) {
-        grid-template-areas:
-            "description description"
-            "info colors"
-            "highlights highlights "
-            "links links";
-    }
-
-}
-
-.work_description {
-    grid-area: description;
-
-    & p {
-        color: var(--text-color);
-    }
+.content{
+    display: flex;
+    flex-flow: column;
+    gap: 2.5rem;
 }
 
 .work_info {
-    grid-area: info;
-
-
     & ul {
         display: flex;
         flex-flow: row wrap;
@@ -91,59 +64,6 @@
             border-radius: 1.5rem;
         }
     }
-}
-
-.work_wrapper {
-    display: flex;
-    flex-flow: row;
-    gap: 1.5rem;
-}
-
-.work_highlights {
-    grid-area: highlights;
-
-    & .work_wrapper {
-        flex-flow: row wrap;
-    }
-
-    & img {
-        width: 100%;
-        height: auto;
-    }
-}
-
-.work_colors {
-    grid-area: colors;
-
-    & ul {
-        display: flex;
-        flex-flow: row wrap;
-        gap: 1.5rem;
-
-    }
-
-    & .colors {
-        width: 7rem;
-        height: 3rem;
-        background-color: #323232;
-        border-radius: 1.5rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: var(--bg-color);
-
-        &:nth-of-type(2n) {
-            background-color: #767677;
-        }
-
-        &:nth-of-type(3n) {
-            background-color: #aaa;
-        }
-    }
-}
-
-.work_links {
-    grid-area: links;
 }
 
 .links {

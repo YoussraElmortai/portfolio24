@@ -1,7 +1,7 @@
 :root {
   --text-color: #1d1c1d;
   --bg-color: #e3e1e1;
-  --sec-grey:  #999999 ;
+  --sec-grey: #999999;
   --text-grey: #3d3d3d;
   --headings: 'dirtyline', sans-serif;
 }
@@ -35,10 +35,10 @@ body {
   padding-left: 1.5rem;
 
 
-     @media  (min-width: 768px) {
-      padding-left: 2.5rem;
-       padding-right: 2.5rem;
-    }
+  @media (min-width: 768px) {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
 }
 
 p {
@@ -51,16 +51,17 @@ h2 {
   font-family: var(--headings);
 }
 
-h1{
+h1 {
   margin-bottom: 2rem;
   font-size: 50px;
 }
 
-h2{
+h2 {
   margin-bottom: 1rem;
 }
 
- h3, h4{
+h3,
+h4 {
   margin-bottom: 0.5rem;
 }
 
@@ -72,11 +73,11 @@ main {
   flex-direction: column;
 }
 
-section{
+section {
   margin-bottom: 2rem;
 }
 
-.clip{
+.clip {
   position: absolute;
   top: -999px;
   left: -999px;
