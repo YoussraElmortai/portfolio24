@@ -51,6 +51,10 @@
     gap: 2.5rem;
 }
 
+.work_description{
+    max-width: 40rem;
+}
+
 .work_info {
     & ul {
         display: flex;

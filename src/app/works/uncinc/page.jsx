@@ -27,6 +27,10 @@ export default function Uncinc() {
               <li>CSS animations</li>
             </ul>
           </div>
+
+          <div className='work_highlights'>
+            <h2>Highlights</h2>
+          </div>
         </section>
 
         <div className='work_links'>

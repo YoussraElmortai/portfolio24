@@ -14,11 +14,17 @@ export default function Home() {
   return (
     <>
       <section className='landing'>
-        <div className='logbook'>
-          <div className='dot' />
+        <div className='safari'>
+          <div className="search">
+          <ul>
+            <li className="dot"></li>
+            <li className="dot"></li>
+            <li className="dot"></li>
+          </ul>
+          <h3> Youssra Elmortai</h3>
+          <h4> {starDate}</h4>
+          </div>
           <div>
-            <h3> Captain's log entry 01 :</h3>
-            <h4>Stardate : {starDate}</h4>
             <article>
               <p>
                 I'm Youssra Elmortai, <br /> I am a Frontend developer
