@@ -14,26 +14,15 @@ export default function Home() {
   return (
     <>
       <section className='landing'>
-        <div className='safari'>
-          <div className="search">
-          <ul>
-            <li className="dot"></li>
-            <li className="dot"></li>
-            <li className="dot"></li>
-          </ul>
-          <h3> Youssra Elmortai</h3>
-          <h4> {starDate}</h4>
-          </div>
-          <div>
-            <article>
-              <p>
-                I'm Youssra Elmortai, <br /> I am a Frontend developer
-                and designer from Amsterdam.
-              </p>
-            </article>
-          </div>
-        </div>
-        <div className=""></div>
+<h1>Youssra Elmortai</h1>
+      </section>
+      <section className="carousel">
+        <h2>Recent works</h2>
+        
+      </section>
+      <section className="playground">
+        <h2>Playground</h2>
+        <p></p>
 
       </section>
     </>
