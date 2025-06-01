@@ -9,7 +9,7 @@ export const metadata = {
   title: "Youssra Elmortai",
   description: "dev portfolio",
   icons: {
-    icon: "me.jpg", 
+    icon: "/heart.svg", 
   },
 };
 

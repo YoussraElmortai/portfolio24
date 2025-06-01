@@ -8,7 +8,7 @@ export default function Header() {
           <ul>
             <li>
               <a href='/'>
-                <h1>YOUS</h1>
+                <img src="/heart.svg"/>
               </a>
             </li>
             <li>

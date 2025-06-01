@@ -3,6 +3,8 @@
   --bg-color: #e3e1e1;
   --sec-grey: #999999;
   --text-grey: #3d3d3d;
+  --highlight: #8ae78a;
+  --negative: #343838;
   --headings: 'dirtyline', sans-serif;
 }
 
@@ -77,4 +79,13 @@ section {
   margin-bottom: 2rem;
 }
 
+.highlight {
+  background-color: var(--highlight);
+  padding: 0rem 1rem;
+  transition: all 0.2s ease-in-out;
 
+  &:hover {
+    background-color: var(--negative);
+    color: var(--bg-color);
+  }
+}

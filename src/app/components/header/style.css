@@ -5,9 +5,9 @@ header {
   margin-bottom: 2rem;
 
   & nav {
-    & h1 {
-      font-size: 30px;
-      margin-bottom: 0;
+
+    & img {
+      filter: invert(1);
     }
 
     & ul {

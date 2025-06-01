@@ -8,8 +8,8 @@ export default function About() {
         <h1>Youssra Elmortai</h1>
         <article>
           <p>
-            Frontend developer with full stack ambitions and a strong
-            focus on accessibility and interaction.
+            Frontend developer with an obssesion with CSS and a strong
+            focus on <span className="highlight">accessibility</span> and <span className="highlight"> interaction</span>
           </p>
         </article>
       </section>
