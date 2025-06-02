@@ -5,25 +5,24 @@ export default function Uncinc() {
     <>
       <section className='work'>
         <div className='work_intro'>
-          <h1>Unc inc</h1>
-          <h2>New corporate website</h2>
+          <h1>The Substance</h1>
+          <h2>Control yourself</h2>
         </div>
 
         <section className='content'>
           <article className='work_description'>
             <p>
-              As a Frontend developer intern I contributed to the
-              development and enhancement of frontend components for
-              the Unc Inc corporate website, playing a key role in
-              improving its functionality and user experience. I also
-              expanded and refined the existing component library.
+              As tiny little project i did inspred by the movie the
+              substance. Because of the theme's of the movie i thoght
+              it would be funny to make a website that promotes the
+              substance just like the tv commerical i the movie.
             </p>
           </article>
           <div className='work_info'>
             <h3>This work was built with... </h3>
             <ul>
               <li>React</li>
-              <li>Drupal</li>
+              <li>Gsap</li>
               <li>CSS animations</li>
             </ul>
           </div>

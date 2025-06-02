@@ -5,25 +5,25 @@ export default function Uncinc() {
     <>
       <section className='work'>
         <div className='work_intro'>
-          <h1>Unc inc</h1>
-          <h2>New corporate website</h2>
+          <h1>Oba</h1>
+          <h2>Re-designing the OBA website</h2>
         </div>
 
         <section className='content'>
           <article className='work_description'>
             <p>
-              As a Frontend developer intern I contributed to the
-              development and enhancement of frontend components for
-              the Unc Inc corporate website, playing a key role in
-              improving its functionality and user experience. I also
-              expanded and refined the existing component library.
+              During my studies, I was able to work on a few projects
+              for the Openbare Bibliotheek Amsterdam (OBA). I wanted
+              to revisit one of those projects and build a new
+              homepage, keeping in mind the style guide I used during
+              my studies.
             </p>
           </article>
           <div className='work_info'>
             <h3>This work was built with... </h3>
             <ul>
-              <li>React</li>
-              <li>Drupal</li>
+              <li>Svelte</li>
+              <li>Figma</li>
               <li>CSS animations</li>
             </ul>
           </div>

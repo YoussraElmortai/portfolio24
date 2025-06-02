@@ -26,25 +26,25 @@ export default function Home() {
             </a>
           </li>
           <li>
-            <a className='list_items' href='works/uncinc'>
+            <a className='list_items' href='works/travelingbeauty'>
               <h3>Traveling Beauty</h3>
               <span>Website / Design</span>
             </a>
           </li>
           <li>
-            <a className='list_items' href='works/uncinc'>
+            <a className='list_items' href='works/plantswap'>
               <h3>Plantswap</h3>
               <span>Website / Design</span>
             </a>
           </li>
           <li>
-            <a className='list_items' href='works/uncinc'>
+            <a className='list_items' href='works/thesubstance'>
               <h3>The substance</h3>
-              <span>Design</span>
+              <span>Website / Design</span>
             </a>
           </li>
           <li>
-            <a className='list_items' href='works/uncinc'>
+            <a className='list_items' href='works/oba'>
               <h3>Oba</h3>
               <span>Website / Design</span>
             </a>
