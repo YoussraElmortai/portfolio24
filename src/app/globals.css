@@ -171,13 +171,3 @@ section {
     color: var(--bg-color);
   }
 }
-
-.squiggle {
-  padding: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1000;
-  margin-left: -1px;
-  margin-right: -1px;
-}

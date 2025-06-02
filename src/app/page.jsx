@@ -1,5 +1,4 @@
 "use client";
-import Squiggle from "./components/squiggle/squiggle";
 
 export default function Home() {
   return (
@@ -8,11 +7,6 @@ export default function Home() {
         <div className='intro'>
           <h1>Youssra Elmortai</h1>
           <h2>Frontend developer</h2>
-        </div>
-        <div className='gallery'>
-          <img src='/bear.JPG'></img>
-          <img src='/me.JPG'></img>
-          <img src='roach.jpg'></img>
         </div>
       </section>
 
@@ -64,7 +58,7 @@ export default function Home() {
         </section>
       </section>
 
-<Squiggle/>
+
       
     </>
   );
