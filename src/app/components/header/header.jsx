@@ -12,9 +12,6 @@ export default function Header() {
               </a>
             </li>
             <li>
-              <a href='/works'>works</a>
-            </li>
-            <li>
               <a href='/about'>about</a>
             </li>
           </ul>
