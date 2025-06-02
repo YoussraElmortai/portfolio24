@@ -4,10 +4,10 @@ export default function Home() {
   return (
     <>
       <section className='landing'>
-        <div className='intro'>
+        <div>
           <h1>Youssra Elmortai</h1>
           <h2>Frontend developer</h2>
-        </div>
+          </div>
       </section>
 
       <section className='Recent'>
@@ -57,9 +57,6 @@ export default function Home() {
           </ul>
         </section>
       </section>
-
-
-      
     </>
   );
 }
