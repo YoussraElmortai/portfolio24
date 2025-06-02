@@ -31,8 +31,11 @@ body {
   height: 100vh;
   display: flex;
   flex-flow: column;
-  padding: 0.5rem;
+}
 
+body {
+  overflow-x: hidden;
+  padding: 1rem;
 
   @media (min-width: 768px) {
     padding-left: 2rem;
@@ -79,8 +82,6 @@ section {
 .landing {
   position: relative;
   display: flex;
-  align-items: center;
-  justify-content: center;
   height: 90vh;
   overflow: hidden;
 
@@ -91,27 +92,21 @@ section {
 
 .gallery {
   position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   z-index: -1000;
   width: 100%;
 
   & img {
-    position: absolute;
     filter: grayscale(0.7);
     object-fit: cover;
     height: 200px;
-    aspect-ratio: 1;
-    top: 0;
-    left: 10%;
+    width: 100%;
 
-    &:nth-of-type(2n) {
-      top: -20vh;
-      left: 40%;
-    }
 
-    &:nth-of-type(3n) {
-      top: -5vh;
-      left: 60%;
-    }
+    &:nth-of-type(2n) {}
+
+    &:nth-of-type(3n) {}
 
   }
 }
@@ -175,4 +170,10 @@ section {
     background-color: var(--negative);
     color: var(--bg-color);
   }
+}
+
+.squiggle {
+  position: absolute;
+  top: 0px;
+  z-index: -1000;
 }

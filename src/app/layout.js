@@ -7,22 +7,22 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Youssra Elmortai",
-  description: "dev portfolio",
+  description: "my development portfolio",
   icons: {
-    icon: "/heart.svg", 
+    icon: "/heart.svg",
   },
 };
 
 export default function RootLayout({ children }) {
+ 
   return (
-    <html lang="en">
+    <html lang='en'>
       <body className={inter.className}>
-        <Header/>
-        <main>
-        {children}
-        </main>
+        <Header />
+        <main>{children}</main>
         <Footer />
-        </body>
+        
+      </body>
     </html>
   );
 }

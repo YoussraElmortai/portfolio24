@@ -1,4 +1,5 @@
 "use client";
+import Squiggle from "./components/squiggle/squiggle";
 
 export default function Home() {
   return (
@@ -23,7 +24,6 @@ export default function Home() {
               <a href='works/uncinc/'>
                 <h3>Unc inc</h3>
               </a>
-              <span>Internship</span>
               <a href='https://www.uncinc.nl/en'>
                 live <img className='arrow' src='/arrow.svg'></img>
               </a>
@@ -32,7 +32,6 @@ export default function Home() {
               <a href='works/oba'>
                 <h3>Oba</h3>
               </a>
-              <span>Website / Design</span>
               <a href='https://oba-fawn.vercel.app/'>
                 live <img className='arrow' src='/arrow.svg'></img>
               </a>
@@ -41,7 +40,6 @@ export default function Home() {
               <a href='works/travelingbeauty'>
                 <h3>Traveling Beauty</h3>
               </a>
-              <span>Website / Design</span>
               <a href='https://travelingbeauty.vercel.app/'>
                 live <img className='arrow' src='/arrow.svg'></img>
               </a>
@@ -50,7 +48,6 @@ export default function Home() {
               <a href='works/plantswap'>
                 <h3>Plantswap</h3>
               </a>
-              <span>Website / Design</span>
               <a href='https://plantswap-sigma.vercel.app/'>
                 live <img className='arrow' src='/arrow.svg'></img>
               </a>
@@ -59,7 +56,6 @@ export default function Home() {
               <a href='works/thesubstance'>
                 <h3>The substance</h3>
               </a>
-              <span>Website / Design</span>
               <a href='https://the-substance.vercel.app/'>
                 live <img className='arrow' src='/arrow.svg'></img>
               </a>
@@ -67,6 +63,9 @@ export default function Home() {
           </ul>
         </section>
       </section>
+
+<Squiggle/>
+      
     </>
   );
 }
