@@ -17,40 +17,55 @@ export default function Home() {
 
       <section className='Recent'>
         <h2>Recent Works</h2>
-      <section className='works'>
-        <ul className='works_list'>
-          <li>
-            <a className='list_items' href='works/uncinc/'>
-              <h3>Unc inc</h3>
-              <span>Website / Internship</span>
-            </a>
-          </li>
-          <li>
-            <a className='list_items' href='works/travelingbeauty'>
-              <h3>Traveling Beauty</h3>
+        <section className='works'>
+          <ul className='works_list'>
+            <li className='list_items'>
+              <a href='works/uncinc/'>
+                <h3>Unc inc</h3>
+              </a>
+              <span>Internship</span>
+              <a href='https://www.uncinc.nl/en'>
+                live <img className='arrow' src='/arrow.svg'></img>
+              </a>
+            </li>
+            <li className='list_items'>
+              <a href='works/oba'>
+                <h3>Oba</h3>
+              </a>
               <span>Website / Design</span>
-            </a>
-          </li>
-          <li>
-            <a className='list_items' href='works/plantswap'>
-              <h3>Plantswap</h3>
+              <a href='https://oba-fawn.vercel.app/'>
+                live <img className='arrow' src='/arrow.svg'></img>
+              </a>
+            </li>
+            <li className='list_items'>
+              <a href='works/travelingbeauty'>
+                <h3>Traveling Beauty</h3>
+              </a>
               <span>Website / Design</span>
-            </a>
-          </li>
-          <li>
-            <a className='list_items' href='works/thesubstance'>
-              <h3>The substance</h3>
+              <a href='https://travelingbeauty.vercel.app/'>
+                live <img className='arrow' src='/arrow.svg'></img>
+              </a>
+            </li>
+            <li className='list_items'>
+              <a href='works/plantswap'>
+                <h3>Plantswap</h3>
+              </a>
               <span>Website / Design</span>
-            </a>
-          </li>
-          <li>
-            <a className='list_items' href='works/oba'>
-              <h3>Oba</h3>
+              <a href='https://plantswap-sigma.vercel.app/'>
+                live <img className='arrow' src='/arrow.svg'></img>
+              </a>
+            </li>
+            <li className='list_items'>
+              <a href='works/thesubstance'>
+                <h3>The substance</h3>
+              </a>
               <span>Website / Design</span>
-            </a>
-          </li>
-        </ul>
-      </section>
+              <a href='https://the-substance.vercel.app/'>
+                live <img className='arrow' src='/arrow.svg'></img>
+              </a>
+            </li>
+          </ul>
+        </section>
       </section>
     </>
   );
