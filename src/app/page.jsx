@@ -19,7 +19,7 @@ export default function Home() {
                 <h3>Unc inc</h3>
               </a>
               <a href='https://www.uncinc.nl/en'>
-                live <img className='arrow' src='/arrow.svg'></img>
+                Graduation Internship <img className='arrow' src='/arrow.svg'></img>
               </a>
             </li>
             <li className='list_items'>
@@ -43,14 +43,6 @@ export default function Home() {
                 <h3>Plantswap</h3>
               </a>
               <a href='https://plantswap-sigma.vercel.app/'>
-                live <img className='arrow' src='/arrow.svg'></img>
-              </a>
-            </li>
-            <li className='list_items'>
-              <a href='works/thesubstance'>
-                <h3>The substance</h3>
-              </a>
-              <a href='https://the-substance.vercel.app/'>
                 live <img className='arrow' src='/arrow.svg'></img>
               </a>
             </li>

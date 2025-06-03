@@ -13,7 +13,7 @@ export default function Header() {
               </a>
             </li>
             <li>
-              <a href='/about'>about</a>
+              <a href='/resume'>resume</a>
             </li>
           </ul>
         </nav>

@@ -1,10 +1,10 @@
 "use client";
 import "./style.css";
 
-export default function About() {
+export default function Resume() {
   return (
     <>
-      <section className='about_intro'>
+      <section className='resume_intro'>
         <h1>Youssra Elmortai</h1>
         <article>
           <p>
@@ -14,7 +14,7 @@ export default function About() {
         </article>
       </section>
 
-      <nav className='about_nav'>
+      <nav className='resume_nav'>
         <ul>
           <li>
             <a href='#experience'>Experience</a>
@@ -30,7 +30,7 @@ export default function About() {
 
       <hr />
 
-      <section className='about_section' id='experience'>
+      <section className='resume_section' id='experience'>
         <h2>Experience</h2>
 
         <div className='content'>
@@ -61,7 +61,7 @@ export default function About() {
 
       <hr />
 
-      <section className='about_section' id='education'>
+      <section className='resume_section' id='education'>
         <h2>Education</h2>
 
         <div className='content'>
@@ -87,7 +87,7 @@ export default function About() {
 
       <hr />
 
-      <section className='about_section' id='expertise'>
+      <section className='resume_section' id='expertise'>
         <h2>Expertise</h2>
 
         <div className='content'>
