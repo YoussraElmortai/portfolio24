@@ -7,8 +7,9 @@ export default function Home() {
         <div>
           <h1>Youssra Elmortai</h1>
           <h2>Frontend developer</h2>
-          </div>
+        </div>
       </section>
+      <section className='about'></section>
 
       <section className='Recent'>
         <h2>Recent Works</h2>
@@ -19,7 +20,8 @@ export default function Home() {
                 <h3>Unc inc</h3>
               </a>
               <a href='https://www.uncinc.nl/en'>
-                Graduation Internship <img className='arrow' src='/arrow.svg'></img>
+                Graduation Internship{" "}
+                <img className='arrow' src='/arrow.svg'></img>
               </a>
             </li>
             <li className='list_items'>
