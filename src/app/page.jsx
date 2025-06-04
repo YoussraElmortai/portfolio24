@@ -16,16 +16,14 @@ export default function Home() {
         <section className='works'>
           <ul className='works_list'>
             <li className='list_items'>
-              <a href='works/uncinc/'>
-                <h3>Unc inc</h3>
-              </a>
-              <a href='https://www.uncinc.nl/en'>
+              <h3>Unc inc</h3>
+              <a href='https://github.com/YoussraElmortai/Unc-inc-internship'>
                 Graduation Internship{" "}
                 <img className='arrow' src='/arrow.svg'></img>
               </a>
             </li>
             <li className='list_items'>
-              <a href='works/oba'>
+              <a href='https://github.com/YoussraElmortai/oba-re-re-design'>
                 <h3>Oba</h3>
               </a>
               <a href='https://oba-fawn.vercel.app/'>
@@ -33,7 +31,7 @@ export default function Home() {
               </a>
             </li>
             <li className='list_items'>
-              <a href='works/travelingbeauty'>
+              <a href='https://github.com/YoussraElmortai/travelingbeauty'>
                 <h3>Traveling Beauty</h3>
               </a>
               <a href='https://travelingbeauty.vercel.app/'>
@@ -41,7 +39,7 @@ export default function Home() {
               </a>
             </li>
             <li className='list_items'>
-              <a href='works/plantswap'>
+              <a href='https://github.com/YoussraElmortai/plantswap'>
                 <h3>Plantswap</h3>
               </a>
               <a href='https://plantswap-sigma.vercel.app/'>
