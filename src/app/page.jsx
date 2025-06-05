@@ -14,11 +14,14 @@ export default function Home() {
         );
         const scrollerContent = Array.from(scrollerInner.children);
 
-        scrollerContent.forEach((i) => {
-          const duplicatedItem = i.cloneNode(true);
-          duplicatedItem.setAttribute("aria-hidden", true);
-          scrollerInner.appendChild(duplicatedItem);
-        });
+  
+        for (let i = 0; i < 3; i++) {
+          scrollerContent.forEach((item) => {
+            const duplicatedItem = item.cloneNode(true);
+            duplicatedItem.setAttribute("aria-hidden", true);
+            scrollerInner.appendChild(duplicatedItem);
+          });
+        }
       });
     };
 
