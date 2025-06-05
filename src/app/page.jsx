@@ -1,16 +1,54 @@
 "use client";
+import { useEffect } from "react";
 
 export default function Home() {
+  useEffect(() => {
+    const scrollers = document.querySelectorAll(".scroller");
+
+    const addAnimation = () => {
+      scrollers.forEach((scroller) => {
+        scroller.setAttribute("data-animated", true);
+
+        const scrollerInner = scroller.querySelector(
+          ".scroller__inner"
+        );
+        const scrollerContent = Array.from(scrollerInner.children);
+
+        scrollerContent.forEach((i) => {
+          const duplicatedItem = i.cloneNode(true);
+          duplicatedItem.setAttribute("aria-hidden", true);
+          scrollerInner.appendChild(duplicatedItem)
+        });
+      });
+    };
+
+    if (
+      !window.matchMedia("(prefers-reduced-motion: reduce)").matches
+    ) {
+      addAnimation();
+    }
+  });
+
   return (
     <>
       <section className='landing'>
         <div>
           <h1>Youssra Elmortai</h1>
-          <h2>Frontend developer</h2>
+        </div>
+        <div className='skills'>
+          <div className='scroller'>
+            <ul className='skill-list scroller__inner'>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Webdev</li>
+              <li>animation</li>
+              <li>Accesibility</li>
+              <li>performance</li>
+            </ul>
+          </div>
         </div>
       </section>
-      <section className='about'></section>
-
       <section className='Recent'>
         <h2>Recent Works</h2>
         <section className='works'>
