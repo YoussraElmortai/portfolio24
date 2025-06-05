@@ -17,7 +17,7 @@ export default function Home() {
         scrollerContent.forEach((i) => {
           const duplicatedItem = i.cloneNode(true);
           duplicatedItem.setAttribute("aria-hidden", true);
-          scrollerInner.appendChild(duplicatedItem)
+          scrollerInner.appendChild(duplicatedItem);
         });
       });
     };
@@ -38,13 +38,39 @@ export default function Home() {
         <div className='skills'>
           <div className='scroller'>
             <ul className='skill-list scroller__inner'>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>Webdev</li>
-              <li>animation</li>
-              <li>Accesibility</li>
-              <li>performance</li>
+              <li>
+                <img src='/html.svg' />
+              </li>
+              <li>
+                <img src='/css.svg' />
+              </li>
+              <li>
+                <img src='/javascript.svg' />
+              </li>
+              <li>
+                <img src='/sass.svg' />
+              </li>
+              <li>
+                <img src='/svelte.svg' />
+              </li>
+              <li>
+                <img src='/react.svg' />
+              </li>
+              <li>
+                <img src='/next.svg' />
+              </li>
+              <li>
+                <img src='/vue.svg' />
+              </li>
+              <li>
+                <img src='/figma.svg' />
+              </li>
+              <li>
+                <img src='/bootstrap.svg' />
+              </li>
+              <li>
+                <img src='/vscode.svg' />
+              </li>
             </ul>
           </div>
         </div>

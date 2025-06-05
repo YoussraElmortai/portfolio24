@@ -93,6 +93,9 @@ section {
   }
 }
 
+.skill-list{
+  list-style: none;
+}
 
 .scroller{
   max-width: 600px;
@@ -105,8 +108,9 @@ section {
   width: max-content;
   padding-block: 1rem;
   display: flex;
+  align-items: center;
   gap: 1.2rem;
-  animation: scroll 40s linear infinite;
+  animation: scroll 60s linear infinite;
 }
 
 
