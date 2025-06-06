@@ -110,7 +110,7 @@ section {
   display: flex;
   align-items: center;
   gap: 1.2rem;
-  animation: scroll 60s linear infinite;
+  animation: scroll 50s linear infinite;
 }
 
 
