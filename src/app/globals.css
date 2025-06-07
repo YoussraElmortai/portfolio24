@@ -148,6 +148,7 @@ section {
 
 
 .list_items {
+  position: relative;
   display: flex;
   align-items: center;
   width: 100%;
@@ -166,9 +167,24 @@ section {
     height: 16px;
   }
 
+    &:hover .hover-img {
+    display: block;
+  }
+
   &:hover .arrow {
     filter: invert(1);
   }
+}
+
+.hover-img{
+  position: absolute;
+  height: 10rem;
+  aspect-ratio: 1;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  display: none;
+  z-index: 1;
 }
 
 .highlight {
