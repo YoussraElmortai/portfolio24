@@ -178,7 +178,7 @@ section {
 }
 
 .hover-img{
-  position: absolute;
+  position: fixed;
   height: 10rem;
   aspect-ratio: 1;
   object-fit: cover;
@@ -186,6 +186,7 @@ section {
   left: 0;
   display: none;
   z-index: 1;
+  pointer-events: none;
 }
 
 .highlight {

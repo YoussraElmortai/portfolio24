@@ -1,26 +1,23 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import Scroller from "./components/scroller/scroller";
 
 export default function Home() {
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+ 
 
   useEffect(() => {
-    const hoverImg = document.querySelectorAll(".hover-img");
+    const hoverImages = document.querySelectorAll(".hover-img");
 
     const handleMouseMove = (e) => {
-      // Update mouse position state
-      setMousePosition({ x: e.clientX, y: e.clientY });
-      
-      // Move each hover-img element
-      hoverImg.forEach(img => {
-        img.style.transform = `translate(${e.clientX * 0.05}px, ${e.clientY * 0.05}px)`;
+      hoverImages.forEach((img) => {
+        img.style.left = `${e.clientX }px`;
+        img.style.top = `${e.clientY }px`;
       });
     };
 
     window.addEventListener("mousemove", handleMouseMove);
-  })
+  });
 
   return (
     <>
