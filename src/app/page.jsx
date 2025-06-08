@@ -1,8 +1,26 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Scroller from "./components/scroller/scroller";
 
 export default function Home() {
+  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+
+  useEffect(() => {
+    const hoverImg = document.querySelectorAll(".hover-img");
+
+    const handleMouseMove = (e) => {
+      // Update mouse position state
+      setMousePosition({ x: e.clientX, y: e.clientY });
+      
+      // Move each hover-img element
+      hoverImg.forEach(img => {
+        img.style.transform = `translate(${e.clientX * 0.05}px, ${e.clientY * 0.05}px)`;
+      });
+    };
+
+    window.addEventListener("mousemove", handleMouseMove);
+  })
 
   return (
     <>
@@ -11,7 +29,7 @@ export default function Home() {
           <h1>Youssra Elmortai</h1>
         </div>
         <div className='skills'>
-          <Scroller/>
+          <Scroller />
         </div>
       </section>
 
@@ -21,7 +39,10 @@ export default function Home() {
           <ul className='works_list'>
             <li className='list_items'>
               <h3>Unc inc</h3>
-              <img className="hover-img" src="https://i.pinimg.com/736x/36/3b/66/363b6614dbcf237451ad43e90dd8e8bc.jpg"/>
+              <img
+                className='hover-img'
+                src='https://i.pinimg.com/736x/36/3b/66/363b6614dbcf237451ad43e90dd8e8bc.jpg'
+              />
               <a href='https://github.com/YoussraElmortai/Unc-inc-internship'>
                 Graduation Internship{" "}
                 <img className='arrow' src='/arrow.svg'></img>
@@ -31,7 +52,10 @@ export default function Home() {
               <a href='https://github.com/YoussraElmortai/oba-re-re-design'>
                 <h3>Oba</h3>
               </a>
-              <img className="hover-img" src="https://i.pinimg.com/736x/4d/6e/61/4d6e61034bfed081b6e9016057e64fb2.jpg"/>
+              <img
+                className='hover-img'
+                src='https://i.pinimg.com/736x/4d/6e/61/4d6e61034bfed081b6e9016057e64fb2.jpg'
+              />
 
               <a href='https://oba-fawn.vercel.app/'>
                 live <img className='arrow' src='/arrow.svg'></img>
@@ -41,7 +65,10 @@ export default function Home() {
               <a href='https://github.com/YoussraElmortai/travelingbeauty'>
                 <h3>Traveling Beauty</h3>
               </a>
-                <img className="hover-img" src="https://i.pinimg.com/736x/8d/18/b9/8d18b9ebc47812e0f49e5ca58d09ec12.jpg"/>
+              <img
+                className='hover-img'
+                src='https://i.pinimg.com/736x/8d/18/b9/8d18b9ebc47812e0f49e5ca58d09ec12.jpg'
+              />
               <a href='https://travelingbeauty.vercel.app/'>
                 live <img className='arrow' src='/arrow.svg'></img>
               </a>
@@ -50,7 +77,10 @@ export default function Home() {
               <a href='https://github.com/YoussraElmortai/plantswap'>
                 <h3>Plantswap</h3>
               </a>
-              <img className="hover-img" src="https://i.pinimg.com/736x/f5/fb/07/f5fb072bee649693fa6965cae244c340.jpg"/>
+              <img
+                className='hover-img'
+                src='https://i.pinimg.com/736x/f5/fb/07/f5fb072bee649693fa6965cae244c340.jpg'
+              />
 
               <a href='https://plantswap-sigma.vercel.app/'>
                 live <img className='arrow' src='/arrow.svg'></img>
