@@ -6,8 +6,8 @@ header {
 
   & nav {
 
-    & img {
-      filter: invert(1);
+    & svg path{
+      fill: var(--text-color);
     }
 
     & ul {
@@ -27,6 +27,10 @@ header {
 
         &:hover{
           color: var(--highlight);
+        }
+
+        &:hover svg path{
+          fill: var(--highlight);
         }
       }
     }
