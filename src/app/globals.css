@@ -102,6 +102,38 @@ section {
   }
 }
 
+#Wrap {
+  position: relative;
+  background: none;
+  overflow: hidden;
+}
+
+#Wrap .FollowBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 250px;
+}
+
+#Wrap .FollowBox:nth-child(1) {
+  z-index: 4;
+}
+
+#Wrap .FollowBox:nth-child(2) {
+  z-index: 3;
+}
+
+#Wrap .FollowBox:nth-child(3) {
+  z-index: 2;
+}
+
+#Wrap .FollowBox:nth-child(4) {
+  z-index: 1;
+}
+
+
+
 .skill-list {
   list-style: none;
 }
