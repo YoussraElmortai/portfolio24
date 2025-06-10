@@ -7,19 +7,16 @@ export default function Home() {
   useEffect(() => {
     const colorChanger = document.getElementById("change");
     const body = document.body;
-    const colorModes = ["darkmode", "holland", "bluemode", ""];
+    const colorModes = [ "holland", "bluemode", "darkmode", ""];
     let currentMode = 0;
 
     const changeColorMode = () => {
-      // Remove all color mode classes
       body.classList.remove("darkmode", "holland", "bluemode");
 
-      // Add the current color mode class (empty string will remove all)
       if (colorModes[currentMode]) {
         body.classList.add(colorModes[currentMode]);
       }
 
-      // Update to next mode
       currentMode = (currentMode + 1) % colorModes.length;
     };
 
@@ -37,7 +34,7 @@ export default function Home() {
           </p>
         </article>
         <button id='change' className='change'>
-          colors
+          color mode
           <svg
             width='24'
             height='24'
