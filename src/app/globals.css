@@ -8,6 +8,35 @@
   --headings: 'dirtyline', sans-serif;
 }
 
+.darkmode {
+  --text-color: #e3e1e1;
+  --bg-color: #1d1c1d;
+  --sec-grey: #999999;
+  --text-grey: #3d3d3d;
+  --highlight: #f22fa4;
+  --negative: #343838;
+}
+
+.bluemode {
+  --text-color: #e4e44d;
+  --bg-color: #4e7ee0;
+  --sec-grey: #cbec38;
+  --text-grey: #d1fa3b;
+  --highlight: #5e41c8;
+  --negative: #0b1137;
+}
+
+.holland {
+  --text-color: #000000;
+  --bg-color: #db5800;
+  --sec-grey: #ff803b;
+  --text-grey: #542817;
+  --highlight: #bee338;
+  --negative: #0b1137;
+}
+
+
+
 @font-face {
   font-family: 'Dirtyline';
   src: url('fonts/Dirtyline 36daysoftype 2022.woff2') format('woff2'),
@@ -67,6 +96,34 @@ h4 {
   margin-bottom: 0.5rem;
 }
 
+button {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+  background-color: var(--text-color);
+  color: var(--bg-color);
+  border: solid var(--text-color);
+
+  & svg path {
+    fill: var(--bg-color);
+  }
+
+  &:hover {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border: solid var(--text-color);
+
+    & svg path {
+      fill: var(--text-color);
+    }
+  }
+}
+
+
 main {
   position: relative;
   z-index: 2;
@@ -76,7 +133,7 @@ main {
 }
 
 section {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .landing {
@@ -91,6 +148,11 @@ section {
 
   & h2 {
     color: var(--highlight);
+  }
+
+  & article {
+    font-weight: bold;
+    max-width: 40rem;
   }
 
   & img {
@@ -138,7 +200,6 @@ section {
   & li {
     position: relative;
     list-style: " ";
-    padding: 1.5rem 0.5rem;
     border-top: solid 2px var(--text-color);
     height: fit-content;
     color: var(--text-color);
@@ -169,6 +230,8 @@ section {
   font-family: var(--headings);
   text-decoration: none;
   color: inherit;
+  height: 5rem;
+  padding: 0 0.5rem;
 
   & a {
     text-decoration: none;

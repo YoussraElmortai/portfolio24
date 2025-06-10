@@ -34,7 +34,7 @@ export default function Scroller() {
 
   return (
     <>
-      <div className='scroller'>
+      <section className='scroller'>
         <ul className='skill-list scroller__inner'>
           <li>
             <img src='/html.svg' />
@@ -70,7 +70,7 @@ export default function Scroller() {
             <img src='/vscode.svg' />
           </li>
         </ul>
-      </div>
+      </section>
     </>
   );
 }
