@@ -35,6 +35,15 @@
   --negative: #0b1137;
 }
 
+.sweet {
+  --text-color: #c1008d;
+  --bg-color: #f9aee9;
+  --sec-grey: #7c1560;
+  --text-grey: #ab4c93;
+  --highlight: #28f172;
+  --negative: #5c1766;
+}
+
 
 
 @font-face {
@@ -123,9 +132,8 @@ button {
   }
 }
 
-.change{
-margin-top: 2rem;
-
+.change {
+  margin-top: 2rem;
 }
 
 
@@ -187,6 +195,12 @@ section {
   gap: 1.2rem;
   animation: scroll 50s linear infinite;
 
+  & svg {
+    & path {
+      fill: var(--text-color);
+    }
+  }
+
 }
 
 
@@ -220,8 +234,14 @@ section {
       color: var(--bg-color);
     }
 
-    &:hover .arrow {
-      filter: invert(1);
+    
+
+    & .arrow path {
+      stroke: var(--text-color);
+    }
+
+    &:hover .arrow path {
+      stroke: var(--bg-color);
     }
   }
 }
@@ -247,7 +267,6 @@ section {
   & .arrow {
     padding-left: 0.2rem;
     rotate: 50deg;
-    height: 16px;
   }
 
   &:hover .hover-img {

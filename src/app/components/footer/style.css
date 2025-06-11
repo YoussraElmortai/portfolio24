@@ -11,7 +11,15 @@ footer {
     }
   }
 
-  & img {
-    height: 20px;
+  & svg {
+    height: 25px;
+
+    & path{
+      fill: var(--text-color);
+    }
+
+    &:hover path{
+      fill: var(--highlight);
+    }
   }
 }
