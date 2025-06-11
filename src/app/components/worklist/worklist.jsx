@@ -30,7 +30,7 @@ export default function WorkList() {
               <h3>Unc inc</h3>
               <img
                 className='hover-img'
-                src='https://i.pinimg.com/736x/36/3b/66/363b6614dbcf237451ad43e90dd8e8bc.jpg'
+                src='https://i.pinimg.com/736x/8a/77/79/8a77798f0a5087fb48303a4e2ac1aa48.jpg'
               />
               <div className='content'>
                 Graduation Internship{" "}
@@ -62,9 +62,10 @@ export default function WorkList() {
               <div className='content'>
                 <img
                   className='hover-img'
-                  src='https://i.pinimg.com/736x/4d/6e/61/4d6e61034bfed081b6e9016057e64fb2.jpg'
+                  src='https://media.nhnieuws.nl/images/510973.4685e6d.jpg?width=1200&ratio=&quality=70'
                 />
-                live                 <svg
+                live{" "}
+                <svg
                   className='arrow'
                   width='14'
                   height='18'
@@ -93,9 +94,10 @@ export default function WorkList() {
               <div className='content'>
                 <img
                   className='hover-img'
-                  src='https://i.pinimg.com/736x/8d/18/b9/8d18b9ebc47812e0f49e5ca58d09ec12.jpg'
+                  src='https://travelingbeauty.vercel.app/groupofpeople.avif'
                 />
-                live                 <svg
+                live{" "}
+                <svg
                   className='arrow'
                   width='14'
                   height='18'
@@ -123,9 +125,10 @@ export default function WorkList() {
               <div className='content'>
                 <img
                   className='hover-img'
-                  src='https://i.pinimg.com/736x/f5/fb/07/f5fb072bee649693fa6965cae244c340.jpg'
+                  src='https://cdn.mos.cms.futurecdn.net/EmkyGgaBujGmrppofJtyfn.jpg'
                 />
-                live                 <svg
+                live{" "}
+                <svg
                   className='arrow'
                   width='14'
                   height='18'
