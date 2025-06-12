@@ -7,11 +7,22 @@ export default function Home() {
   useEffect(() => {
     const colorChanger = document.getElementById("change");
     const body = document.body;
-    const colorModes = [ "holland", "bluemode", "darkmode","sweet",""];
+    const colorModes = [
+      "holland",
+      "bluemode",
+      "darkmode",
+      "sweet",
+      "",
+    ];
     let currentMode = 0;
 
     const changeColorMode = () => {
-      body.classList.remove("darkmode", "holland", "bluemode","sweet");
+      body.classList.remove(
+        "darkmode",
+        "holland",
+        "bluemode",
+        "sweet"
+      );
 
       if (colorModes[currentMode]) {
         body.classList.add(colorModes[currentMode]);
@@ -21,6 +32,8 @@ export default function Home() {
     };
 
     colorChanger.addEventListener("click", changeColorMode);
+
+    
   });
   return (
     <>

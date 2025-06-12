@@ -117,6 +117,16 @@ button {
   color: var(--bg-color);
   border: solid var(--text-color);
 
+  &:focus-visible {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border: solid var(--text-color);
+
+    & svg path {
+      fill: var(--text-color);
+    }
+  }
+
   & svg path {
     fill: var(--bg-color);
   }
@@ -135,7 +145,6 @@ button {
 .change {
   margin-top: 2rem;
 }
-
 
 main {
   position: relative;
@@ -156,7 +165,6 @@ section {
   align-items: center;
   justify-content: center;
   height: fit-content;
-  overflow: hidden;
   text-align: center;
 
   & h2 {
@@ -234,7 +242,6 @@ section {
       color: var(--bg-color);
     }
 
-    
 
     & .arrow path {
       stroke: var(--text-color);
@@ -258,6 +265,11 @@ section {
   color: inherit;
   height: 5rem;
   padding: 0 0.5rem;
+
+  &:focus-within {
+    background: var(--text-color);
+    color: var(--bg-color);
+  }
 
   & a {
     text-decoration: none;

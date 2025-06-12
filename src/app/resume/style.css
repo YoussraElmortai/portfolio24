@@ -79,5 +79,12 @@
 
     & ul {
         list-style: "";
+        display: flex;
+        flex-flow: column;
+        gap: 0.5rem;
+    }
+
+    & li {
+        font-size: 20px;
     }
 }

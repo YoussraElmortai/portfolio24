@@ -45,15 +45,9 @@ export default function Resume() {
             <p>
               As a Frontend developer intern I contributed to the
               development and enhancement of frontend components for
-              the Unc Inc corporate website, playing a key role in
-              improving its functionality and user experience. I also
-              expanded and refined the existing component library,
-              ensuring greater consistency and efficiency across
-              projects. Using Docker, I managed and modified Drupal
-              fields to meet client needs effectively. Additionally, I
-              identified and resolved bugs on various client websites,
-              significantly improving their accessibility,
-              performance, and overall user satisfaction.
+              the Unc Inc corporate website, playing a role in
+              improving its functionality and user experience. I also worked on
+              expanding the existing component library and help building the design system.
             </p>
           </article>
         </div>
