@@ -180,7 +180,9 @@ section {
   height: fit-content;
   text-align: center;
 
-  & h2 {
+
+
+  & h1 {
     color: var(--highlight);
   }
 
