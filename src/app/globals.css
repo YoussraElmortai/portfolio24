@@ -4,7 +4,7 @@
   --sec-grey: #999999;
   --text-grey: #3d3d3d;
   --highlight: #f22fa4;
-  --negative: #343838;
+  --negative: #9d80cb;
   --headings: 'dirtyline', sans-serif;
 }
 
@@ -81,6 +81,20 @@ body {
   }
 }
 
+::-webkit-scrollbar {
+  background: var(--text-grey);
+  opacity: 0;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--highlight);
+  border-radius: 0.5rem;
+  border: 3px solid transparent;
+  background-clip: padding-box;
+}
+
+
 p {
   color: var(--text-grey);
   font-size: 20px;
@@ -92,7 +106,7 @@ h2 {
 }
 
 h1 {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   font-size: 50px;
 }
 
@@ -159,7 +173,6 @@ section {
 }
 
 .landing {
-  position: relative;
   display: flex;
   flex-flow: column;
   align-items: center;

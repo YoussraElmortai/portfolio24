@@ -7,7 +7,7 @@ export default function Header() {
         <nav>
           <ul>
             <li>
-              <a href='/'>
+              <a aria-label="home" href='/'>
                 <svg
                   width='24'
                   height='24'

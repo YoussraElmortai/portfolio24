@@ -32,13 +32,12 @@ export default function Home() {
     };
 
     colorChanger.addEventListener("click", changeColorMode);
-
-    
   });
+
   return (
     <>
       <section className='landing'>
-        <img src='/bear.JPG' alt='Bear' />
+          <img src='/bear.JPG' alt='Bear' />
         <h1>Youssra Elmortai</h1>
         <article>
           <p>
