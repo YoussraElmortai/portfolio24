@@ -119,7 +119,7 @@ export default function WorkList() {
           <li>
             <a
               className='list_items'
-              href='https://plantswap-sigma.vercel.app/'
+              href='https://plantswap-webapplicatie.vercel.app/'
             >
               <h3>Plantswap</h3>
               <div className='content'>
